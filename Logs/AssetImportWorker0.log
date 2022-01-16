@@ -160,3 +160,4 @@ Received Import Request.
 Start importing Assets/PianoCotturaIsola.fbx using Guid(4e1ad379d8517574d9c901abedfaf037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c723b4252060b1f054ec5d02ee1c0e') in 0.071456 seconds 
   Import took 0.078633 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
