@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class ActionButtonController : MonoBehaviour
 {
 
+    private GameObject crosshair;
     private Animator anim;
     public string itemName;
     public Text itemText;
@@ -16,7 +17,7 @@ public class ActionButtonController : MonoBehaviour
     public AudioClip hoverSFX;
     public AudioClip clickSFX;
     public bool ending = false;
-    public GameObject CrossHair;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class ActionButtonController : MonoBehaviour
 
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>(); 
+        crosshair = GameObject.Find("Crosshair");
     }
 
     // Update is called once per frame
@@ -35,8 +37,11 @@ public class ActionButtonController : MonoBehaviour
             
 
             if(ending) {
-               CrossHair.SetActive(true);
+               
                ActionWheel.SetActive(false); 
+               crosshair.GetComponent<RectTransform> ().localScale = new Vector3 (1, 1, 1);
+               Cursor.lockState = CursorLockMode.Locked;
+               Cursor.visible = false; 
             }
 
         }
@@ -47,8 +52,7 @@ public class ActionButtonController : MonoBehaviour
         audioSource.PlayOneShot(clickSFX);
         selected = true;
         Debug.Log("Selected");
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;     
+            
         ending = true;   
     }
 

@@ -9,7 +9,8 @@ public class ActionEvent : MonoBehaviour
 {
 
     public GameObject ActionWheel;
-    public GameObject CrossHair;
+    private GameObject crosshair;
+    private GameObject player;
     AudioSource clickSFX;
     MeshRenderer mr;
  
@@ -19,6 +20,11 @@ public class ActionEvent : MonoBehaviour
         clickSFX = GetComponent<AudioSource>();
         mr = GetComponent<MeshRenderer>();
         ActionWheel.SetActive(false);
+        crosshair = GameObject.Find("Crosshair");
+        player = GameObject.Find("Giocatore");
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
     }
 
     // Crossover hovering the object
@@ -50,8 +56,11 @@ public class ActionEvent : MonoBehaviour
         // Enabling Actionwheel
         ActionWheel.SetActive(true);
         // Disabling Crosshair
-        CrossHair.SetActive(false);
+        crosshair.GetComponent<RectTransform> ().localScale = new Vector3 (0, 0, 0);
         // Show cursor
+
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
         
 
     }
