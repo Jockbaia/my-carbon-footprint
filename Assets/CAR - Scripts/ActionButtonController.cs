@@ -12,11 +12,14 @@ public class ActionButtonController : MonoBehaviour
     private bool selected = false;
     public Sprite icon;
     public GameObject ActionWheel;
+    private GameObject player;
+    public int footprintValue;
     
     AudioSource audioSource;
     public AudioClip hoverSFX;
     public AudioClip clickSFX;
-    public bool ending = false;
+    private bool ending = false;
+
     
 
     // Start is called before the first frame update
@@ -26,6 +29,7 @@ public class ActionButtonController : MonoBehaviour
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>(); 
         crosshair = GameObject.Find("Crosshair");
+        player = GameObject.Find("Giocatore");
     }
 
     // Update is called once per frame
@@ -37,7 +41,7 @@ public class ActionButtonController : MonoBehaviour
             
 
             if(ending) {
-               
+               player.GetComponent<PlayerData>().increaseFootprint(footprintValue);
                ActionWheel.SetActive(false); 
                crosshair.GetComponent<RectTransform> ().localScale = new Vector3 (1, 1, 1);
                Cursor.lockState = CursorLockMode.Locked;

@@ -2389,9 +2389,9 @@ MonoBehaviour:
   itemText: {fileID: 229590489}
   icon: {fileID: 0}
   ActionWheel: {fileID: 281152999}
+  footprintValue: 3
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
-  ending: 0
 --- !u!95 &1167756189
 Animator:
   serializedVersion: 3
@@ -3294,9 +3294,9 @@ MonoBehaviour:
   itemText: {fileID: 229590489}
   icon: {fileID: 0}
   ActionWheel: {fileID: 281152999}
+  footprintValue: 4
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
-  ending: 0
 --- !u!95 &1319047308
 Animator:
   serializedVersion: 3
@@ -3837,9 +3837,9 @@ MonoBehaviour:
   itemText: {fileID: 229590489}
   icon: {fileID: 0}
   ActionWheel: {fileID: 281152999}
+  footprintValue: 2
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
-  ending: 0
 --- !u!95 &1451489597
 Animator:
   serializedVersion: 3
@@ -4700,9 +4700,9 @@ MonoBehaviour:
   itemText: {fileID: 229590489}
   icon: {fileID: 0}
   ActionWheel: {fileID: 281152999}
+  footprintValue: 1
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
-  ending: 0
 --- !u!82 &1647936545
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4899,6 +4899,24 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_PrefabInstance: {fileID: 623355169}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2047402573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 623355169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2047402578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047402573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf0bab381dcd1e4f9824f136ede1ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footprintValue: 0
 --- !u!1 &2074501466
 GameObject:
   m_ObjectHideFlags: 0
