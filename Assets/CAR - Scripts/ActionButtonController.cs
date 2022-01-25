@@ -10,10 +10,10 @@ public class ActionButtonController : MonoBehaviour
     public string itemName;
     public Text itemText;
     private bool selected = false;
-    public Sprite icon;
     public GameObject ActionWheel;
     private GameObject player;
-    public int footprintValue;
+    public int co2Value;
+    public int pointsValue;
     
     AudioSource audioSource;
     public AudioClip hoverSFX;
@@ -41,7 +41,8 @@ public class ActionButtonController : MonoBehaviour
             
 
             if(ending) {
-               player.GetComponent<PlayerData>().increaseFootprint(footprintValue);
+               player.GetComponent<PlayerData>().increaseFootprint(co2Value);
+               player.GetComponent<PlayerData>().increasePoints(pointsValue);
                ActionWheel.SetActive(false); 
                crosshair.GetComponent<RectTransform> ().localScale = new Vector3 (1, 1, 1);
                Cursor.lockState = CursorLockMode.Locked;
