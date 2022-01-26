@@ -12,6 +12,7 @@ public class ActionButtonController : MonoBehaviour
     private bool selected = false;
     public GameObject ActionWheel;
     private GameObject player;
+    private GameObject piedino;
     public int co2Value;
     public int pointsValue;
     
@@ -30,6 +31,7 @@ public class ActionButtonController : MonoBehaviour
         audioSource = GetComponent<AudioSource>(); 
         crosshair = GameObject.Find("Crosshair");
         player = GameObject.Find("Giocatore");
+        piedino = GameObject.Find("Piedino");
     }
 
     // Update is called once per frame
@@ -43,6 +45,8 @@ public class ActionButtonController : MonoBehaviour
             if(ending) {
                player.GetComponent<PlayerData>().increaseFootprint(co2Value);
                player.GetComponent<PlayerData>().increasePoints(pointsValue);
+               piedino.GetComponent<piedinoBehaviour>().showPiedino();
+
                ActionWheel.SetActive(false); 
                crosshair.GetComponent<RectTransform> ().localScale = new Vector3 (1, 1, 1);
                Cursor.lockState = CursorLockMode.Locked;
