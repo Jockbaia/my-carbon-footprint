@@ -31,7 +31,7 @@ public class ActionButtonController : MonoBehaviour
         audioSource = GetComponent<AudioSource>(); 
         crosshair = GameObject.Find("Crosshair");
         player = GameObject.Find("Giocatore");
-        piedino = GameObject.Find("Piedino");
+        piedino = GameObject.Find("PiedinoWrapper");
     }
 
     // Update is called once per frame

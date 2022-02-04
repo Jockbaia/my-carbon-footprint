@@ -18,6 +18,10 @@ public class piedinoBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetMouseButtonDown(0) && isShown == 1) {
+            isShown = 0;   
+            anim.SetBool("showPiedino", false);
+        }
 
     }
 
