@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 706e9493e10b3d843bb15f29e9cd074c
+guid: 67ed37d19430f4be581221cf7556d685
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: f191d772c89384e2b942888ef5d87b70, type: 2}
+      name: MobileTVCucina_Mat
+    second: {fileID: 2100000, guid: f3b0bf1a6fcbf48cfa1c40a82930ea06, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

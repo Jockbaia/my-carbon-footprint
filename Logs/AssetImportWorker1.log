@@ -1,0 +1,224 @@
+Unity Editor version:    2020.3.26f1 (7298b473bc1a)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.14.6 (Build 18G103)
+Darwin version:          18.7.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.26f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Volumes/TOSHIBA EXT/VR
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55927
+Successfully changed project path to: /Volumes/TOSHIBA EXT/VR
+/Volumes/TOSHIBA EXT/VR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 330.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/TOSHIBA EXT/VR/Assets
+GfxDevice: creating device client; threaded=0
+2022-02-06 10:48:13.791 Unity[38115:14166948] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-02-06 10:48:13.791 Unity[38115:14166948] Metal devices available: 1
+2022-02-06 10:48:13.791 Unity[38115:14166948] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-02-06 10:48:13.792 Unity[38115:14166948] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
+Initialize mono
+Mono path[0] = '/Applications/2020.3.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56115
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005076 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1500ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1242ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.173089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2893ms)
+		BeginReloadAssembly (328ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2427ms)
+			LoadAssemblies (1097ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (583ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.013482 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.291139 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1638 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.7 MB.
+System memory in use after: 174.3 MB.
+
+Unloading 176 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 4.658379 ms (FindLiveObjects: 0.227073 ms CreateObjectMapping: 0.120458 ms MarkObjects: 3.257775 ms  DeleteObjects: 1.052020 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Camera/pc.fbx
+  artifactKey: Guid(bd549290ce083412b80a45472d8c304f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/pc.fbx using Guid(bd549290ce083412b80a45472d8c304f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3319c5c6b5daecb319ad92c9bc79e984') in 0.604031 seconds 
+  Import took 0.729208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.619476 seconds.
+  path: Assets/Camera/sedia.fbx
+  artifactKey: Guid(24a10f25334d848da8d929cc540662b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/sedia.fbx using Guid(24a10f25334d848da8d929cc540662b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f59dd2a030e7fbff609fbe338b39ca') in 0.079682 seconds 
+  Import took 0.280013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.833169 seconds.
+  path: Assets/Camera/termo.fbx
+  artifactKey: Guid(f0366bb04cb7f464887bf443bcb434bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/termo.fbx using Guid(f0366bb04cb7f464887bf443bcb434bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e85d0ea5d32d02ef372a3e5774ba58') in 0.093112 seconds 
+  Import took 0.107845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.759386 seconds.
+  path: Assets/Camera/cestino.fbx
+  artifactKey: Guid(86bb3465fa90f4899b343b817ec168da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/cestino.fbx using Guid(86bb3465fa90f4899b343b817ec168da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04507fad80e63f263c2f9a33b5b5563d') in 0.091448 seconds 
+  Import took 0.119382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.452406 seconds.
+  path: Assets/Camera/pianta.fbx
+  artifactKey: Guid(e0f2c308092894bfab09bdfe17f672d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/pianta.fbx using Guid(e0f2c308092894bfab09bdfe17f672d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc22ec1d515ee1c883c54d5af12e3174') in 0.088438 seconds 
+  Import took 0.104081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1405.823744 seconds.
+  path: Assets/Camera/armadio.fbx
+  artifactKey: Guid(dab6f1ef9e51641b9b0bfcdd94fe491b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/armadio.fbx using Guid(dab6f1ef9e51641b9b0bfcdd94fe491b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619a6ec28b817fc13cf0c0e47064d87b') in 0.118530 seconds 
+  Import took 0.138222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.396559 seconds.
+  path: Assets/Camera/acqua.fbx
+  artifactKey: Guid(ce6c5b19d228d4f5499987ce61927289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/acqua.fbx using Guid(ce6c5b19d228d4f5499987ce61927289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b443262a52f7a8850accf141eab732') in 0.145412 seconds 
+  Import took 0.180486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.951038 seconds.
+  path: Assets/Camera/bottone.fbx
+  artifactKey: Guid(2191ba255a73746238f37f648f28ac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/bottone.fbx using Guid(2191ba255a73746238f37f648f28ac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2b7af5e710347a2e7d65f8b0a983bb') in 0.085462 seconds 
+  Import took 0.097940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.702681 seconds.
+  path: Assets/Camera/finestra.fbx
+  artifactKey: Guid(bf0a3b7bcbdc645279eb9c55cb7afb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Camera/finestra.fbx using Guid(bf0a3b7bcbdc645279eb9c55cb7afb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bac4e2c7370bd8d568ff88e0dd09307') in 0.103156 seconds 
+  Import took 0.122742 seconds .
+
