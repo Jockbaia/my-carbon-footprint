@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &14469634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 14469635}
+  m_Layer: 0
+  m_Name: SediaSalotto (1) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14469635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14469634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &23101590
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,6 +192,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &38178514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 238516509}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &74001418
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,6 +489,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2, z: 2.1434555}
   m_Center: {x: -1.0193101e-15, y: 1.0413272, z: -0.07172759}
+--- !u!1 &143331686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 143331687}
+  m_Layer: 0
+  m_Name: SediaSalotto (3) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &143331687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143331686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &147059274
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +818,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037908fe747714f49b520345e688f353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: 
+  isScheduled: 0
+  intro: 
+  feedback: 
   ActionWheel: {fileID: 281152999}
 --- !u!82 &226707674
 AudioSource:
@@ -1154,11 +1234,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
---- !u!4 &238516509 stripped
+--- !u!4 &238516509
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
   m_PrefabInstance: {fileID: 238516508}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38178514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &242144473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1418,6 +1507,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.5890923, y: 0.4329745, z: 3.2767887}
   m_Center: {x: 0.013185501, y: -0.016799219, z: -0.82580227}
+--- !u!1 &269125362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 269125363}
+  m_Layer: 0
+  m_Name: PianoCotturaIsola (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &269125363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269125362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1546349141}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &281152999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2199,11 +2318,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e1ad379d8517574d9c901abedfaf037, type: 3}
---- !u!4 &400003121 stripped
+--- !u!4 &400003121
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4e1ad379d8517574d9c901abedfaf037, type: 3}
   m_PrefabInstance: {fileID: 400003120}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122678976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1546349141}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &411732361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 411732362}
+  m_Layer: 0
+  m_Name: SediaSalotto (4) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &411732362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411732361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &456897533
 GameObject:
   m_ObjectHideFlags: 0
@@ -2779,11 +2937,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
---- !u!4 &558098122 stripped
+--- !u!4 &558098122
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
   m_PrefabInstance: {fileID: 558098121}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811930353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &563521373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,14 +3074,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 242144474}
-  - {fileID: 133368275}
   - {fileID: 819084994}
-  - {fileID: 1070391473}
+  - {fileID: 133368275}
   - {fileID: 642342120}
+  - {fileID: 1070391473}
   - {fileID: 919803550}
-  - {fileID: 626429066}
   - {fileID: 249343324}
   - {fileID: 1547121542}
+  - {fileID: 626429066}
   - {fileID: 233383139}
   - {fileID: 1051438125}
   - {fileID: 1604657377}
@@ -3761,6 +3928,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &714595480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363154709}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &762117708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2058939081}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &764816844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4419,6 +4618,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037908fe747714f49b520345e688f353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: TEMPERATURE
+  isScheduled: 0
+  intro: 
+  feedback: "Da un\u2019elaborazione dell\u2019Osservatorio Autopromotec su un campione
+    di 5 citt\xE0 italiane medie e grandi emerge che il riscaldamento domestico inquina
+    6 volte di pi\xF9 dei trasporti. In proporzione, ogni grado in pi\xF9 sul termostato
+    consuma circa 300 kg di CO2 in pi\xF9 all\u2019anno."
   ActionWheel: {fileID: 281152999}
 --- !u!1001 &819084993
 PrefabInstance:
@@ -4581,11 +4787,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
---- !u!4 &856421390 stripped
+--- !u!4 &856421390
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
   m_PrefabInstance: {fileID: 856421389}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885631650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &900631104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 981692404}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &919803549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4973,11 +5204,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8f4690a87d5b9b4096381e149c63867, type: 3}
---- !u!4 &981692404 stripped
+--- !u!4 &981692404
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c8f4690a87d5b9b4096381e149c63867, type: 3}
   m_PrefabInstance: {fileID: 981692403}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900631104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1014517338
 GameObject:
   m_ObjectHideFlags: 0
@@ -5967,6 +6207,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092464129}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1106215240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1106215241}
+  m_Layer: 0
+  m_Name: SediaSalotto (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1106215241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106215240}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1122678976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400003121}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &1125303044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6058,6 +6344,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037908fe747714f49b520345e688f353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: BREAKFAST
+  isScheduled: 1
+  intro: "Ieri hai provato la colazione americana con uova e bacon e ne sei rimasto
+    entusiasta! Magari la preparo anche oggi\u2026"
+  feedback: "L\u2019industria della carne \xE8 oggi una delle principali responsabili
+    dell\u2019emissione di gas serra nell\u2019atmosfera, producendo il 14% delle
+    emissioni globali \u2013 pi\xF9 dell\u2019intero settore dei trasporti. "
   ActionWheel: {fileID: 74001418}
 --- !u!82 &1128521583
 AudioSource:
@@ -6231,6 +6524,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d607d7aacbbab344a8150c23fa967767, type: 3}
   m_PrefabInstance: {fileID: 1130128679}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1149532810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149532811}
+  m_Layer: 0
+  m_Name: SediaSalotto (2) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149532811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149532810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1166525926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6918,11 +7241,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
---- !u!4 &1192557558 stripped
+--- !u!4 &1192557558
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
   m_PrefabInstance: {fileID: 1192557557}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366901849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229567566
 GameObject:
   m_ObjectHideFlags: 0
@@ -7933,11 +8265,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
---- !u!4 &1363154709 stripped
+--- !u!4 &1363154709
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
   m_PrefabInstance: {fileID: 1363154708}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714595480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1366901849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192557558}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1391702361
 GameObject:
   m_ObjectHideFlags: 0
@@ -9456,6 +9813,7 @@ Transform:
   - {fileID: 1468729660}
   - {fileID: 110727426}
   - {fileID: 1130128680}
+  - {fileID: 269125363}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9533,6 +9891,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
   m_PrefabInstance: {fileID: 1547121541}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1551657514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1551657515}
+  m_Layer: 0
+  m_Name: DivanoSalotto (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1551657515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551657514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551972636
 GameObject:
   m_ObjectHideFlags: 0
@@ -10709,6 +11097,22 @@ Transform:
   m_Father: {fileID: 23101591}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1811930353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 558098122}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1819224007
 GameObject:
   m_ObjectHideFlags: 0
@@ -11045,6 +11449,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819224007}
   m_CullTransparentMesh: 1
+--- !u!1 &1885631650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 856421390}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &1890720386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11135,6 +11555,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037908fe747714f49b520345e688f353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ID: TRAVEL
+  isScheduled: 1
+  intro: "Ieri sera ti sei scordato di prenotare il biglietto per tornare dalla tua
+    famiglia durante le vacanze di natale, fallo subito prima di scordarti poi durante
+    la giornata. Il tuo PC \xE8 gia acceso sulla scrivania. "
+  feedback: "Il treno si conferma come mezzo di trasporto pi\xF9 ecologico. Con solo
+    44 grammi di CO2 prodotta per chilometro, il treno sale sul posto pi\xF9 prestigioso
+    del podio battendo di gran lunga gli \u201Cavversari\u201D che producono quantit\xE0
+    ben superiori (fino al 91% in pi\xF9). "
   ActionWheel: {fileID: 1946244009}
 --- !u!82 &1890720389
 AudioSource:
@@ -11310,6 +11739,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footprintValue: 0
   footprintPoints: 0
+--- !u!114 &2047402579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047402573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11171e1b51cc7574fb49c9e5cb8361fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counter: 0
+  isCurrentScheduled: 0
 --- !u!1001 &2058939080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11379,11 +11822,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
---- !u!4 &2058939081 stripped
+--- !u!4 &2058939081
 Transform:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f7463212a191423479b86b61a6d39b0b, type: 3}
   m_PrefabInstance: {fileID: 2058939080}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762117708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2070138817
 GameObject:
   m_ObjectHideFlags: 0
@@ -11761,6 +12213,13 @@ Transform:
   - {fileID: 856421390}
   - {fileID: 926889177}
   - {fileID: 660746579}
+  - {fileID: 2118067107}
+  - {fileID: 1149532811}
+  - {fileID: 1106215241}
+  - {fileID: 1551657515}
+  - {fileID: 14469635}
+  - {fileID: 143331687}
+  - {fileID: 411732362}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12004,6 +12463,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &2118067106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2118067107}
+  m_Layer: 0
+  m_Name: SediaSalotto (5) (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2118067107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118067106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2072441606}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2119397177
 PrefabInstance:
   m_ObjectHideFlags: 0

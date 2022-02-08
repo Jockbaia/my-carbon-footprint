@@ -6,12 +6,14 @@ public class piedinoBehaviour : MonoBehaviour
 {
 
     private Animator anim;
+    private GameObject player;
     public int isShown;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        player = GameObject.Find("Giocatore");
         isShown = 0;    
     }
 
@@ -21,6 +23,7 @@ public class piedinoBehaviour : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && isShown == 1) {
             isShown = 0;   
             anim.SetBool("showPiedino", false);
+            player.GetComponent<actionSchedule>().nextEvent();
         }
 
     }
