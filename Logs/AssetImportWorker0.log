@@ -328,3 +328,4 @@ Received Import Request.
 Start importing Assets/Textures/Sentiero/Sentiero_Sentiero_Mat_Normal.png using Guid(f4ab867f1ef58c9449cc1ed5d0dd3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4300dc201f347dd449ebdc76b85c823') in 0.014596 seconds 
   Import took 0.017280 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
