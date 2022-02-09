@@ -13,7 +13,7 @@ public class ActionButtonController : MonoBehaviour
     public GameObject ActionWheel;
     private GameObject player;
     private GameObject piedino;
-    public int co2Value;
+    public float co2Value;
     public int pointsValue;
     
     AudioSource audioSource;

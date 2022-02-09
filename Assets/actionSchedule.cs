@@ -10,22 +10,25 @@ public class actionSchedule : MonoBehaviour
     public bool isCurrentScheduled;
     
     // Start is called before the first frame update
+    
     void Start()
     {
-        events[0] = "BREAKFAST";
-        events[1] = "TRAVEL";
-        //events[0] = "BOTTLE";
-        //events[1] = "TRAVEL";
-        events[2] = "COFFEE";
-        events[3] = "BREAKFAST";
-        events[4] = "BISCUITS";
-        events[5] = "WASHER";
-        events[6] = "SHOWER";
-        events[7] = "CAR";
+
+        events[0] = "BOTTLE"; // OK
+        events[1] = "TRAVEL"; // OK
+        events[2] = "COFFEE"; // OK
+        events[3] = "BREAKFAST"; // OK
+        events[4] = "BISCUITS"; // OK
+        events[5] = "WASHER"; // OK
+        events[6] = "SHOWER"; // OK
+        events[7] = "CAR"; // OK 
         events[8] = "CLOSE";
 
         // Unscheduled
-        // "TEMPERATURE"
+        //
+        // "TEMPERATURE" OK
+        // "LIGHTS" OK
+        // "ROOMBA" OK
 
         counter = 0;
     }

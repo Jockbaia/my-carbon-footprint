@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerData : MonoBehaviour
 {
-    public int footprintValue;
+    public float footprintValue;
     public int footprintPoints;
 
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class PlayerData : MonoBehaviour
         
     }
 
-    public void increaseFootprint(int value) {
+    public void increaseFootprint(float value) {
         footprintValue+=value;    
     }
 
