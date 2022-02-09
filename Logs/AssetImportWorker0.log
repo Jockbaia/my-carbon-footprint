@@ -15,11 +15,11 @@ C:/Users/Zacheo/Progetto VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62907
+62205
 Successfully changed project path to: C:/Users/Zacheo/Progetto VR
 C:/Users/Zacheo/Progetto VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002416 seconds.
+Registered in 0.002314 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
+- Completed reload, in  1.112 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1232ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1113ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (433ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (156ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (149ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005754 seconds.
+Registered in 0.005467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
+- Completed reload, in  1.090 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1242ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (1091ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1010ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (892ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (364ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (251ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (230ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
@@ -110,101 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1638 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.7 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2088.
-Total: 3.509900 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.919400 ms  DeleteObjects: 0.310800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Spazzatura.fbx
-  artifactKey: Guid(d607d7aacbbab344a8150c23fa967767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spazzatura.fbx using Guid(d607d7aacbbab344a8150c23fa967767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa6b4a68e6a19d4894703be095c9164') in 0.219602 seconds 
-  Import took 0.223269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/TavoloSalotto.fbx
-  artifactKey: Guid(6fda3deb92e4fb34ba875af458dc256a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TavoloSalotto.fbx using Guid(6fda3deb92e4fb34ba875af458dc256a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b2f4880c6d335d27c1c2f6220e262d') in 0.051680 seconds 
-  Import took 0.054388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 349.878067 seconds.
-  path: Assets/bak04feb.unity
-  artifactKey: Guid(6bc441a27eed3a640b0fe91a96728a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bak04feb.unity using Guid(6bc441a27eed3a640b0fe91a96728a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465f1217e472c7574479f9e36c17305d') in 0.003269 seconds 
-  Import took 0.011048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.950073 seconds.
-  path: Assets/bak31dec.unity
-  artifactKey: Guid(60ebf24e8a549074dbeecd4d126fc586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bak31dec.unity using Guid(60ebf24e8a549074dbeecd4d126fc586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14aed6def8af0ae7a53f52a6eac3c0d8') in 0.003303 seconds 
-  Import took 0.011143 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005335 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
-Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (781ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (260ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.1 MB.
-System memory in use after: 93.8 MB.
+Unloading 1638 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2133.
-Total: 3.280900 ms (FindLiveObjects: 0.203200 ms CreateObjectMapping: 0.065200 ms MarkObjects: 2.735200 ms  DeleteObjects: 0.276300 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2088.
+Total: 4.420800 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.052600 ms MarkObjects: 2.838300 ms  DeleteObjects: 1.341700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -218,114 +131,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 927.793661 seconds.
-  path: Assets/Textures/Bici_Manubrio
-  artifactKey: Guid(bb9df331131756349b5f43f60d98d7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Bici_Manubrio using Guid(bb9df331131756349b5f43f60d98d7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e220025b2d0dcaaea5680028f2672d7') in 0.009218 seconds 
-  Import took 0.012644 seconds .
+  path: Assets/Materials/Casse.fbx
+  artifactKey: Guid(c8422a663147a8047952869ea4ae6fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Casse.fbx using Guid(c8422a663147a8047952869ea4ae6fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98dcb3097123ec14f04f6dc9e9465c7') in 0.209629 seconds 
+  Import took 0.212597 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.258221 seconds.
-  path: Assets/Textures/BiciManubrio
-  artifactKey: Guid(bb9df331131756349b5f43f60d98d7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/BiciManubrio using Guid(bb9df331131756349b5f43f60d98d7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1654560d2f1d6edf5d2412b279cea91d') in 0.002805 seconds 
-  Import took 0.011966 seconds .
+  Time since last request: 11.455616 seconds.
+  path: Assets/Casse 1.fbx
+  artifactKey: Guid(b2f139c0761c49b4695aa9cf0f9ba2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Casse 1.fbx using Guid(b2f139c0761c49b4695aa9cf0f9ba2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1441d93f1a0143832b201fc2e13885') in 0.041148 seconds 
+  Import took 0.048544 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018433 seconds.
-  path: Assets/Textures/Bici_Struttura
-  artifactKey: Guid(5bb2f12bacf23b14c872b33405149349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Bici_Struttura using Guid(5bb2f12bacf23b14c872b33405149349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8385a06b5e6fe263fe111078adec615c') in 0.002665 seconds 
-  Import took 0.007913 seconds .
+  Time since last request: 0.724363 seconds.
+  path: Assets/Casse.fbx
+  artifactKey: Guid(fb8bdef6b0d4d814791c68bc1d7b7c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Casse.fbx using Guid(fb8bdef6b0d4d814791c68bc1d7b7c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b576bf893ee6ffe755d9a50ad64bf840') in 0.026829 seconds 
+  Import took 0.033950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.889328 seconds.
-  path: Assets/Textures/Bici_Pedali
-  artifactKey: Guid(3d0ec9140c632e242ae73e94093a69f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Bici_Pedali using Guid(3d0ec9140c632e242ae73e94093a69f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd7e4a803291929e1d9a16c6d50cfc6') in 0.004009 seconds 
-  Import took 0.011183 seconds .
+  Time since last request: 8.500910 seconds.
+  path: Assets/Casse.fbx
+  artifactKey: Guid(b2f139c0761c49b4695aa9cf0f9ba2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Casse.fbx using Guid(b2f139c0761c49b4695aa9cf0f9ba2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fd4d8c3e886ddb0175d3ac66033e80') in 0.049873 seconds 
+  Import took 0.059864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.250894 seconds.
-  path: Assets/Textures/BiciPedali
-  artifactKey: Guid(3d0ec9140c632e242ae73e94093a69f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/BiciPedali using Guid(3d0ec9140c632e242ae73e94093a69f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c724b7b8f6e493073b75f32aee9cde9b') in 0.002912 seconds 
-  Import took 0.011851 seconds .
+  Time since last request: 664.637570 seconds.
+  path: Assets/Lavatrice.fbx
+  artifactKey: Guid(ea7fde78e844bcf4f9a1177589fd948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lavatrice.fbx using Guid(ea7fde78e844bcf4f9a1177589fd948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238c2989993d041386c0c808799807bc') in 0.046810 seconds 
+  Import took 0.055403 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.213063 seconds.
-  path: Assets/Textures/BiciStruttura
-  artifactKey: Guid(5bb2f12bacf23b14c872b33405149349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/BiciStruttura using Guid(5bb2f12bacf23b14c872b33405149349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728dc8b217166d7bb92a5d555ae90b0e') in 0.001912 seconds 
-  Import took 0.006626 seconds .
+  Time since last request: 2344.406046 seconds.
+  path: Assets/Lavabo 1.fbx
+  artifactKey: Guid(8ade431d538432a43ae6f2893c2bf5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lavabo 1.fbx using Guid(8ade431d538432a43ae6f2893c2bf5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f522304413cdff00f6ae547cdb7936') in 0.082719 seconds 
+  Import took 0.089952 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.026679 seconds.
-  path: Assets/Textures/Bidet
-  artifactKey: Guid(45f544b745d96e4499d21cbad4a6dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Bidet using Guid(45f544b745d96e4499d21cbad4a6dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45d7e039f4dd356b6db020d0f27ee35') in 0.003112 seconds 
-  Import took 0.010792 seconds .
+  Time since last request: 0.769320 seconds.
+  path: Assets/Lavabo.fbx
+  artifactKey: Guid(5a880b40d5fc4ba4bb70b3ddd7568428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lavabo.fbx using Guid(5a880b40d5fc4ba4bb70b3ddd7568428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3ff124c6a38c5bbdc5ca53302af1f7') in 0.068899 seconds 
+  Import took 0.072378 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.923869 seconds.
-  path: Assets/Textures/BiciManubrio/Bici_Manubrio_Bici_Manubrio_Metallic.png
-  artifactKey: Guid(8e2460966f27ca04cb638970bd83d88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/BiciManubrio/Bici_Manubrio_Bici_Manubrio_Metallic.png using Guid(8e2460966f27ca04cb638970bd83d88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f2bfe4042b593f7ea4944a657993a3') in 0.063976 seconds 
-  Import took 0.067793 seconds .
+  Time since last request: 37.493078 seconds.
+  path: Assets/Lavabo.fbx
+  artifactKey: Guid(8ade431d538432a43ae6f2893c2bf5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lavabo.fbx using Guid(8ade431d538432a43ae6f2893c2bf5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632a6d12019d4589c5346183f1509d48') in 0.076631 seconds 
+  Import took 0.079775 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.326797 seconds.
-  path: Assets/Textures/BiciManubrio/Bici_Manubrio_Bici_Manubrio_Metallic_Unity.png
-  artifactKey: Guid(861e576d3b655e3419b861c2bfbedc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/BiciManubrio/Bici_Manubrio_Bici_Manubrio_Metallic_Unity.png using Guid(861e576d3b655e3419b861c2bfbedc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8286e50d61f202a5cfd05a78404ed110') in 0.016486 seconds 
-  Import took 0.020435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.456788 seconds.
-  path: Assets/Textures/BiciPedali/Bici_Pedali_Bici_Pedali_Mat_Roughness.png
-  artifactKey: Guid(4b7fd65d10648e745920d31182d50b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/BiciPedali/Bici_Pedali_Bici_Pedali_Mat_Roughness.png using Guid(4b7fd65d10648e745920d31182d50b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23772a4a9bb3870e56a85a00a96df159') in 0.008287 seconds 
-  Import took 0.015207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.745258 seconds.
-  path: Assets/Textures/BiciStruttura/Bici_Struttura_TT_checker_512x512_UV_GRID.002_Metallic_Unity.png
-  artifactKey: Guid(a6edba0423db43d4ea9bdf6c6d647e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/BiciStruttura/Bici_Struttura_TT_checker_512x512_UV_GRID.002_Metallic_Unity.png using Guid(a6edba0423db43d4ea9bdf6c6d647e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4d8d2bc7c8e67c056ad7459000aea2') in 0.014108 seconds 
-  Import took 0.017282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 617.036123 seconds.
-  path: Assets/Textures/Casse
-  artifactKey: Guid(7564bf38ad78cb64d818031582d903c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Casse using Guid(7564bf38ad78cb64d818031582d903c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbca29f25dde738fcb01a82ef673dc7') in 0.004321 seconds 
-  Import took 0.010139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.056113 seconds.
-  path: Assets/Textures/Sentiero/Sentiero_Sentiero_Mat_Normal.png
-  artifactKey: Guid(f4ab867f1ef58c9449cc1ed5d0dd3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sentiero/Sentiero_Sentiero_Mat_Normal.png using Guid(f4ab867f1ef58c9449cc1ed5d0dd3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c7e86568fa96ed7640b65a997421cd') in 0.016473 seconds 
-  Import took 0.019467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.508667 seconds.
-  path: Assets/Textures/Sentiero/Sentiero_Sentiero_Mat_Normal.png
-  artifactKey: Guid(f4ab867f1ef58c9449cc1ed5d0dd3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Sentiero/Sentiero_Sentiero_Mat_Normal.png using Guid(f4ab867f1ef58c9449cc1ed5d0dd3e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4300dc201f347dd449ebdc76b85c823') in 0.014596 seconds 
-  Import took 0.017280 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
