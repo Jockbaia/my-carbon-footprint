@@ -14,6 +14,8 @@ public class ActionEvent : MonoBehaviour
     public string feedback;
     public GameObject ActionWheel;
     private GameObject crosshair;
+    private GameObject piedinoText;
+    private GameObject piedinoBTN;
     private GameObject player;
     AudioSource clickSFX;
     MeshRenderer mr;
@@ -26,6 +28,7 @@ public class ActionEvent : MonoBehaviour
         ActionWheel.SetActive(false);
         crosshair = GameObject.Find("Crosshair");
         player = GameObject.Find("Giocatore");
+        piedinoText = GameObject.Find("PiedinoText");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         isDone = false;
@@ -38,6 +41,7 @@ public class ActionEvent : MonoBehaviour
         if((string.Equals(player.GetComponent<actionSchedule>().getID(),ID) || !isScheduled) && !isDone) {
             // Enabling glow
             mr.material.EnableKeyword("_EMISSION");
+            piedinoText.GetComponent<TextPiedino>().setFeedback(feedback);
         }
 
     }
