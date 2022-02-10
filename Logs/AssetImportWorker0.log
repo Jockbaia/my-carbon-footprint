@@ -15,11 +15,11 @@ D:/Documents/GitHub/vr_project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64596
+64980
 Successfully changed project path to: D:/Documents/GitHub/vr_project
 D:/Documents/GitHub/vr_project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001099 seconds.
+Registered in 0.001154 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.535 seconds
+- Completed reload, in  0.501 seconds
 Domain Reload Profiling:
-	ReloadAssembly (535ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (501ms)
+		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (411ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (397ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (154ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (156ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (37ms)
 				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002205 seconds.
+Registered in 0.002134 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
+- Completed reload, in  0.839 seconds
 Domain Reload Profiling:
-	ReloadAssembly (921ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (839ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (739ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (249ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (290ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1638 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.1 MB.
 System memory in use after: 80.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2075.
-Total: 3.598600 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.048600 ms MarkObjects: 3.042700 ms  DeleteObjects: 0.309200 ms)
+Total: 3.865900 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.069000 ms MarkObjects: 3.344600 ms  DeleteObjects: 0.250700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,73 +132,186 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/bak04feb.unity
-  artifactKey: Guid(6bc441a27eed3a640b0fe91a96728a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bak04feb.unity using Guid(6bc441a27eed3a640b0fe91a96728a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b1754992212e282e2e6a1bab347fbc') in 0.033862 seconds 
-  Import took 0.036520 seconds .
+  path: Assets/Mattia/FrigoConAnta.fbx
+  artifactKey: Guid(18112bb272c04d5459b2ca855b7a342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/FrigoConAnta.fbx using Guid(18112bb272c04d5459b2ca855b7a342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003d19bf928e0c93702e023a7e9cc1bc') in 0.197877 seconds 
+  Import took 0.200837 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 232.745451 seconds.
-  path: Assets/Standard Assets
-  artifactKey: Guid(c6195a43a0187a34e9c6be23520d3766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets using Guid(c6195a43a0187a34e9c6be23520d3766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dde5de66680e5b3784f3a17ea7ab6c4') in 0.021381 seconds 
-  Import took 0.024744 seconds .
+  Time since last request: 0.000353 seconds.
+  path: Assets/Mattia/Animations
+  artifactKey: Guid(f50e79459f0696d41b003fd8d75a2f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Animations using Guid(f50e79459f0696d41b003fd8d75a2f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb71774dfc92a19864c547169ca2ec1') in 0.021513 seconds 
+  Import took 0.024088 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.310457 seconds.
-  path: Assets/actionSchedule.cs
-  artifactKey: Guid(11171e1b51cc7574fb49c9e5cb8361fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/actionSchedule.cs using Guid(11171e1b51cc7574fb49c9e5cb8361fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f243a17c305858d014a71df94e60af') in 0.244199 seconds 
-  Import took 0.247389 seconds .
+  Time since last request: 11.553967 seconds.
+  path: Assets/Mattia/Models
+  artifactKey: Guid(2f08502bf02cd2549aba4c236cf43962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Models using Guid(2f08502bf02cd2549aba4c236cf43962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cea0369b637e51d48823c94c771f1d') in 0.022851 seconds 
+  Import took 0.025632 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.373348 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(1fa32bc2462674c5aaa718a51ae706b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(1fa32bc2462674c5aaa718a51ae706b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd226f67d7773af6091d7712427d1d0') in 0.022151 seconds 
-  Import took 0.025243 seconds .
+  Time since last request: 21.682983 seconds.
+  path: Assets/Mattia/Prefabs/EmptyFrigo.prefab
+  artifactKey: Guid(d6d266fa470bf9d4485849bf20407373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Prefabs/EmptyFrigo.prefab using Guid(d6d266fa470bf9d4485849bf20407373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0523cd84905e61f8e85033086fe63be9') in 0.045146 seconds 
+  Import took 0.048264 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.393716 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.020967 seconds 
-  Import took 0.023531 seconds .
+  Time since last request: 105.195814 seconds.
+  path: Assets/Mattia/Models/LavatriceConSportello.fbx
+  artifactKey: Guid(275420887d32db748a14f36929e5d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Models/LavatriceConSportello.fbx using Guid(275420887d32db748a14f36929e5d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14fb194edb7a9c1701bbe7e5e54dc6') in 0.418351 seconds 
+  Import took 0.421355 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.394134 seconds.
-  path: Assets/Mattia
-  artifactKey: Guid(292b100b813212647b17b76f9242009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mattia using Guid(292b100b813212647b17b76f9242009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316bf99347f0916d1727faa34ba3c05e') in 0.021040 seconds 
-  Import took 0.024313 seconds .
+  Time since last request: 113.405081 seconds.
+  path: Assets/Mattia/Models/LavatriceConSportello.fbx
+  artifactKey: Guid(275420887d32db748a14f36929e5d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Models/LavatriceConSportello.fbx using Guid(275420887d32db748a14f36929e5d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdaf8651b91a9557233b3b9858855d1') in 0.059253 seconds 
+  Import took 0.062337 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 764.737233 seconds.
-  path: Assets/Cucina/MobileTvCucina.fbx
-  artifactKey: Guid(9b8069cf02211534b8ce95b574157847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cucina/MobileTvCucina.fbx using Guid(9b8069cf02211534b8ce95b574157847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bccf72de9aa0f55d23b2756abc39b82') in 0.224659 seconds 
-  Import took 0.228322 seconds .
+  Time since last request: 40.530275 seconds.
+  path: Assets/Mattia/Models/LavatriceConSportello.fbx
+  artifactKey: Guid(275420887d32db748a14f36929e5d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Models/LavatriceConSportello.fbx using Guid(275420887d32db748a14f36929e5d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97830451c0a3fe467a1815d8d24aec1d') in 0.064748 seconds 
+  Import took 0.067947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.378036 seconds.
-  path: Assets/Cucina/PianoCotturaIsola.fbx
-  artifactKey: Guid(880d927f145817a46bf09172413d29e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cucina/PianoCotturaIsola.fbx using Guid(880d927f145817a46bf09172413d29e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8508cf909e989ebaf2f14202b163ef18') in 0.040644 seconds 
-  Import took 0.044217 seconds .
+  Time since last request: 174.157544 seconds.
+  path: Assets/Mattia/Models/LavatriceConSportello.fbx
+  artifactKey: Guid(275420887d32db748a14f36929e5d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Models/LavatriceConSportello.fbx using Guid(275420887d32db748a14f36929e5d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828eb6b71d80ea5b366e9af3795fe2af') in 0.079835 seconds 
+  Import took 0.083111 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.562960 seconds.
-  path: Assets/Cucina/TV.fbx
-  artifactKey: Guid(d94d8cc0984c3374281a076427f59788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cucina/TV.fbx using Guid(d94d8cc0984c3374281a076427f59788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3a4b18691d6a6003b9e89705f14e64') in 0.038138 seconds 
-  Import took 0.040890 seconds .
+  Time since last request: 182.765202 seconds.
+  path: Assets/Mattia/Animations/Lavatrice_Sportello.controller
+  artifactKey: Guid(11446048e262eb242936e1c42ed12fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Animations/Lavatrice_Sportello.controller using Guid(11446048e262eb242936e1c42ed12fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1b76cf146990e482dce2927f1e808d') in 0.024918 seconds 
+  Import took 0.028007 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.950520 seconds.
+  path: Assets/Mattia/Animations/LavatriceConSportello.controller
+  artifactKey: Guid(2548ec973445e7443bbaeca90f957a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Animations/LavatriceConSportello.controller using Guid(2548ec973445e7443bbaeca90f957a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a1b200d43366d86ff2c1173c5afb8b') in 0.021579 seconds 
+  Import took 0.025728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.350959 seconds.
+  path: Assets/Mattia/Animations/LavatriceSportelloOpen.anim
+  artifactKey: Guid(5266715e2fac5b7459d3e468d000a477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Animations/LavatriceSportelloOpen.anim using Guid(5266715e2fac5b7459d3e468d000a477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4b6d5ebd143349f464dfa8f48cbfcd') in 0.024234 seconds 
+  Import took 0.027008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.404453 seconds.
+  path: Assets/Mattia/Animations/LavatriceSportelloClose.anim
+  artifactKey: Guid(50e872bcdc622764a8ad4e6ee682dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Animations/LavatriceSportelloClose.anim using Guid(50e872bcdc622764a8ad4e6ee682dce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d512282d8dd9668e083acb754fd7007') in 0.023087 seconds 
+  Import took 0.026223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 441.335111 seconds.
+  path: Assets/Mattia/Prefabs/Lavatrice.prefab
+  artifactKey: Guid(2cf177e407ee5cb46be707c146a1d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Prefabs/Lavatrice.prefab using Guid(2cf177e407ee5cb46be707c146a1d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9affdd8e5c30971a818f6a430f0a6acf') in 0.039318 seconds 
+  Import took 0.042504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 328.640728 seconds.
+  path: Assets/Mattia/Models/Bici.fbx
+  artifactKey: Guid(987e9d6cf37d4804198be25d9a1c5da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Models/Bici.fbx using Guid(987e9d6cf37d4804198be25d9a1c5da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb56f5c607a1af7e415ecfa0521d4e3') in 0.187466 seconds 
+  Import took 0.190502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.637166 seconds.
+  path: Assets/Mattia/Prefabs/Bici.prefab
+  artifactKey: Guid(0bb9adc04123ced4fb3d9d0dbb11e956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Prefabs/Bici.prefab using Guid(0bb9adc04123ced4fb3d9d0dbb11e956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f20746708e31fba8957ecbe525b052') in 0.044049 seconds 
+  Import took 0.046799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.320667 seconds.
+  path: Assets/Mattia/Materials
+  artifactKey: Guid(43e313fb6c79efc4ab40a614030c2266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Materials using Guid(43e313fb6c79efc4ab40a614030c2266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6701d06eeae847d55fd21a17cea05d') in 0.020903 seconds 
+  Import took 0.024238 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (791ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (638ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.6 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2120.
+Total: 3.559200 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.962300 ms  DeleteObjects: 0.238000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
