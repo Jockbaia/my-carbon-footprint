@@ -16,6 +16,7 @@ public class ActionEvent : MonoBehaviour
     private GameObject crosshair;
     private GameObject piedinoText;
     private GameObject hintText;
+    private GameObject hintBTN;
     private GameObject piedinoBTN;
     private GameObject player;
     AudioSource clickSFX;
@@ -31,6 +32,7 @@ public class ActionEvent : MonoBehaviour
         player = GameObject.Find("Giocatore");
         piedinoText = GameObject.Find("PiedinoText");
         hintText = GameObject.Find("HintText");
+        hintBTN = GameObject.Find("PlayerHints");  
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         isDone = false;
@@ -61,8 +63,12 @@ public class ActionEvent : MonoBehaviour
     // Left click on the object
     void OnMouseDown(){
         Debug.Log("Clicking");
+
+        hintBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0, (float) 0, 1);
         piedinoText.GetComponent<TextPiedino>().setFeedback(feedback);
-        hintText.GetComponent<HintText>().setHint(intro);
+        
+        if(isScheduled) hintText.GetComponent<HintText>().setHint(intro);
+
         if((string.Equals(player.GetComponent<actionSchedule>().getID(),ID) || !isScheduled) && !isDone) {
             isDone = true;
             player.GetComponent<actionSchedule>().setCurrentScheduled(isScheduled);

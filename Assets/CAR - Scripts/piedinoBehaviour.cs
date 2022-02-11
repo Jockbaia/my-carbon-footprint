@@ -33,6 +33,7 @@ public class piedinoBehaviour : MonoBehaviour
             piedinoBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0, 0, 1);
             player.GetComponent<actionSchedule>().nextEvent();
             hintBTN.GetComponent<RectTransform> ().localScale = new Vector3 (1, 1, 1);
+            soundFeedback.GetComponent<soundFeedback>().playHumming();
         }
 
     }
@@ -46,7 +47,6 @@ public class piedinoBehaviour : MonoBehaviour
     }
 
     public void hidePiedino() {
-        soundFeedback.GetComponent<soundFeedback>().playHumming();
         isShown = 0;   
         anim.SetBool("showPiedino", false); 
         piedinoBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0.5, (float) 0.5, 1);

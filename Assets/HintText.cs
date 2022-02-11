@@ -10,7 +10,7 @@ public class HintText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        itemText.text = "START";
+        itemText.text = "Che dormita! Bello al calduccio col mio termosifone. Forse troppo caldo: ho finito l’acqua nella bottiglia. Fammi controllare se ne è rimasta un po’...";
     }
 
     // Update is called once per frame

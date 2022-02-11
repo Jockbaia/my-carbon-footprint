@@ -1475,7 +1475,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: COFFEE
   isScheduled: 1
-  intro: "La giornata non puo\u2019 iniziare senza un buon caff\xE8. "
+  intro: "La colazione americana di ieri era una bomba! Magari me la preparo anche
+    oggi\u2026 C\u2019\xE8 qualcosa in frigo?"
   feedback: "Nonostante il caff\xE8 in capsule rappresenti un esempio di innovazione
     diretta alla cosiddetta consumer care, esso aumenta di 5 volte la quantit\xE0
     di rifiuti di imballaggi post-consumo rispetto al caff\xE8 fatto con la moka."
@@ -4711,10 +4712,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: BOTTLE
   isScheduled: 1
-  intro: "Buongiorno! Nella tua citt\xE0 hanno attivato il riscaldamento centralizzato
-    e hai approfittato della cosa godendoti il calore del termosifone tutta la notte,
-    ma forse hai un po\u2019 esagerato e ti \xE8 venuta molta sete durante la notte,
-    ti sei scolato un intera bottiglia d\u2019acqua da 1,5 L. "
+  intro: "Le vacanze sono quasi arrivate! Non sarebbe male prenotare quel biglietto
+    per tornare da mamma\u2026 Accendiamo il PC e vediamo se ci sono dei prezzi buoni. "
   feedback: "Per produrre 1kg di PET (con cui si producono circa 25 bottiglie da
     1,5 l) sono richiesti oltre 17 litri di acqua (quindi per ogni litro se ne sprecano
     due) e 2 kg di petrolio. Considerando anche l\u2019impatto dei trasporti si ha
@@ -5512,9 +5511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: WASHER
   isScheduled: 1
-  intro: "Devi fare assolutamente la lavatrice, ieri l\u2019hai caricata ma ti sei
-    scordato di avviarla, altrimenti rimani senza mutande pulite, e non \xE8 mai
-    una buona cosa\u2026"
+  intro: "Anche questa \xE8 andata! E ora, una bella doccia calda\u2026"
   feedback: "Una indagine dell'Istituto nazionale di ricerca per i consumatori norvegese
     ha dimostrato che un abbassamento di 10\xB0\u2009C produce una riduzione di consumo
     prossima   al 20% sia per i programmi cotone che per i sintetici. "
@@ -7091,8 +7088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: CAR
   isScheduled: 1
-  intro: "E\u2019 ora di andare a lavoro, oggi \xE8 una bella giornata e sono in
-    orario, cosa prendi?"
+  intro: 
   feedback: "Uno studio internazionale di Oxford condotto su 2mila cittadini europei
     ha dimostrato che basta sostituire anche un solo viaggio al giorno in automobile
     con spostamenti in bicicletta per ridurre di  mezza tonnellata nel corso di un
@@ -14726,8 +14722,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: BREAKFAST
   isScheduled: 1
-  intro: "Ieri hai provato la colazione americana con uova e bacon e ne sei rimasto
-    entusiasta! Magari la preparo anche oggi\u2026"
+  intro: "C\u2019\xE8 ancora un po\u2019 di spazio nella pancia\u2026 Diamo un\u2019occhiata
+    alla dispensa."
   feedback: "L\u2019industria della carne \xE8 oggi una delle principali responsabili
     dell\u2019emissione di gas serra nell\u2019atmosfera, producendo il 14% delle
     emissioni globali \u2013 pi\xF9 dell\u2019intero settore dei trasporti."
@@ -21016,7 +21012,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: BISCUITS
   isScheduled: 1
-  intro: Magari prendi anche qualcosa dalla dispensa.
+  intro: "Cavoli, la lavatrice! Ieri l\u2019ho caricata scordandomi di avviarla,
+    rimanere senza mutande pulite non \xE8 una buona idea\u2026"
   feedback: "I ricercatori hanno calcolato che i dolci industriali come torte, brioche,
     merendine e biscotti contribuiscono per l\u20198,5% alle emissioni legate alla
     produzione di alimenti. Bevande come t\xE8, e caff\xE8 incidono per 15,1% totalizzando
@@ -25408,7 +25405,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: SHOWER
   isScheduled: 1
-  intro: "E\u2019 ora di farsi una bella doccia calda\u2026"
+  intro: "Oggi sono stranamente in orario per lavoro! C\u2019\xE8 anche una bella
+    giornata\u2026 Andiamo in garage e vediamo un po\u2019 come muoverci."
   feedback: "Se 4 persone di una famiglia la doccia una volta al giorno ciascuno,
     il loro consumo annuo di acqua sar\xE0 di 80 mila litri: ci\xF2 equivale a emettere
     3,5 tonnellate di CO2 all\u2019anno."
@@ -26361,9 +26359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: TRAVEL
   isScheduled: 1
-  intro: "Ieri sera ti sei scordato di prenotare il biglietto per tornare dalla tua
-    famiglia durante le vacanze di natale, fallo subito prima di scordarti poi durante
-    la giornata. Il tuo PC \xE8 gia acceso sulla scrivania. "
+  intro: "La giornata non puo\u2019 iniziare senza un buon caff\xE8! Ora me ne faccio
+    una bella tazza in cucina."
   feedback: "Il treno si conferma il mezzo di trasporto pi\xF9 ecologico: con solo
     44 grammi di CO2 prodotta per chilometro, sale sul posto pi\xF9 prestigioso del
     podio battendo di gran lunga gli \u201Cavversari\u201D che producono quantit\xE0
