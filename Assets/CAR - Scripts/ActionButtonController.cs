@@ -14,6 +14,7 @@ public class ActionButtonController : MonoBehaviour
     private GameObject player;
     private GameObject piedino;
     private GameObject piedinoBTN;
+    private GameObject soundFeedback;
     public float co2Value;
     public int pointsValue;
     
@@ -34,6 +35,7 @@ public class ActionButtonController : MonoBehaviour
         player = GameObject.Find("Giocatore");
         piedino = GameObject.Find("PiedinoWrapper");
         piedinoBTN = GameObject.Find("PiedinoButton");
+        soundFeedback = GameObject.Find("Sound FX");
     }
 
     // Update is called once per frame
@@ -52,6 +54,7 @@ public class ActionButtonController : MonoBehaviour
                ActionWheel.SetActive(false); 
                crosshair.GetComponent<RectTransform> ().localScale = new Vector3 (1, 1, 1);
                piedinoBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0.5, (float) 0.5, 1);
+               
                Cursor.lockState = CursorLockMode.Locked;
                Cursor.visible = false; 
             }
@@ -62,9 +65,9 @@ public class ActionButtonController : MonoBehaviour
     public void Selected() 
     {
         audioSource.PlayOneShot(clickSFX);
+        soundFeedback.GetComponent<soundFeedback>().playSuccess();
         selected = true;
-        Debug.Log("Selected");
-            
+        Debug.Log("Selected");            
         ending = true;   
     }
 

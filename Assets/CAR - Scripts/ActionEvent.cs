@@ -15,6 +15,7 @@ public class ActionEvent : MonoBehaviour
     public GameObject ActionWheel;
     private GameObject crosshair;
     private GameObject piedinoText;
+    private GameObject hintText;
     private GameObject piedinoBTN;
     private GameObject player;
     AudioSource clickSFX;
@@ -29,6 +30,7 @@ public class ActionEvent : MonoBehaviour
         crosshair = GameObject.Find("Crosshair");
         player = GameObject.Find("Giocatore");
         piedinoText = GameObject.Find("PiedinoText");
+        hintText = GameObject.Find("HintText");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         isDone = false;
@@ -41,7 +43,6 @@ public class ActionEvent : MonoBehaviour
         if((string.Equals(player.GetComponent<actionSchedule>().getID(),ID) || !isScheduled) && !isDone) {
             // Enabling glow
             mr.material.EnableKeyword("_EMISSION");
-            piedinoText.GetComponent<TextPiedino>().setFeedback(feedback);
         }
 
     }
@@ -60,6 +61,8 @@ public class ActionEvent : MonoBehaviour
     // Left click on the object
     void OnMouseDown(){
         Debug.Log("Clicking");
+        piedinoText.GetComponent<TextPiedino>().setFeedback(feedback);
+        hintText.GetComponent<HintText>().setHint(intro);
         if((string.Equals(player.GetComponent<actionSchedule>().getID(),ID) || !isScheduled) && !isDone) {
             isDone = true;
             player.GetComponent<actionSchedule>().setCurrentScheduled(isScheduled);
