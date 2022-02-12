@@ -17,7 +17,9 @@ public class ActionButtonController : MonoBehaviour
     private GameObject soundFeedback;
     public float co2Value;
     public int pointsValue;
-    
+    public bool isBad;
+    public GameObject textHint; 
+
     AudioSource audioSource;
     public AudioClip hoverSFX;
     public AudioClip clickSFX;
@@ -36,6 +38,8 @@ public class ActionButtonController : MonoBehaviour
         piedino = GameObject.Find("PiedinoWrapper");
         piedinoBTN = GameObject.Find("PiedinoButton");
         soundFeedback = GameObject.Find("Sound FX");
+        textHint = GameObject.Find("TipsText2");
+
     }
 
     // Update is called once per frame
@@ -65,6 +69,10 @@ public class ActionButtonController : MonoBehaviour
     public void Selected() 
     {
         audioSource.PlayOneShot(clickSFX);
+        if(isBad) {
+            int currentid = player.GetComponent<actionSchedule>().getCurrent();
+            textHint.GetComponent<showTipContext>().setBadFlag(currentid);
+        }
         soundFeedback.GetComponent<soundFeedback>().playSuccess();
         selected = true;
         Debug.Log("Selected");            

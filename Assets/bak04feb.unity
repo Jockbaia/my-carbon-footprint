@@ -666,6 +666,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 748062680}
   co2Value: 2.5
   pointsValue: 0
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &100484444
@@ -1151,6 +1153,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 748062680}
   co2Value: 1.5
   pointsValue: 2
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &124841462
@@ -2732,6 +2736,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1022418395}
   co2Value: 0.2
   pointsValue: 0
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &233629793
@@ -3874,6 +3880,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1946244009}
   co2Value: 120
   pointsValue: 0
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &339804456
@@ -4680,6 +4688,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 836190278}
   co2Value: 5
   pointsValue: 1
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &385646338
@@ -5729,6 +5739,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 74001418}
   co2Value: 13
   pointsValue: 0
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &456897538
@@ -8110,6 +8122,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1535417287}
   co2Value: 0
   pointsValue: 1
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &650677250
@@ -8446,6 +8460,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1535417287}
   co2Value: 0.038
   pointsValue: 0
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &652248766
@@ -9336,6 +9352,7 @@ RectTransform:
   - {fileID: 1216968786}
   - {fileID: 894240891}
   - {fileID: 963465798}
+  - {fileID: 1058767724}
   m_Father: {fileID: 226707672}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9640,6 +9657,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 748062680}
   co2Value: 2
   pointsValue: 1
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &759240754
@@ -10671,6 +10690,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1188763180}
   co2Value: 0
   pointsValue: 1
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &802875715
@@ -11549,6 +11570,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1188763180}
   co2Value: 0.65
   pointsValue: 0
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &854220215
@@ -11885,6 +11908,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1022418395}
   co2Value: 0.17
   pointsValue: 3
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &854978869
@@ -14024,6 +14049,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 74001418}
   co2Value: 0
   pointsValue: 3
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1055839248
@@ -14202,6 +14229,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057117100}
   m_CullTransparentMesh: 1
+--- !u!1 &1058767723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058767724}
+  m_Layer: 0
+  m_Name: Tips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1058767724
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058767723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1853618465}
+  - {fileID: 2015868480}
+  m_Father: {fileID: 747252296}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -119.47}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1061645794
 GameObject:
   m_ObjectHideFlags: 0
@@ -14435,6 +14499,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 842531280}
   co2Value: 0
   pointsValue: 1
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1061645799
@@ -15404,6 +15470,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 842531280}
   co2Value: 0.12
   pointsValue: 0
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1118059288
@@ -16087,6 +16155,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 281152999}
   co2Value: 8
   pointsValue: 2
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1167756189
@@ -16614,6 +16684,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 748062680}
   co2Value: 1
   pointsValue: 3
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1183925948
@@ -18073,6 +18145,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 2007083693}
   co2Value: 0
   pointsValue: 0
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1302582285
@@ -18552,6 +18626,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 281152999}
   co2Value: 0
   pointsValue: 3
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1319047308
@@ -19217,6 +19293,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 443541274}
   co2Value: 0.048
   pointsValue: 1
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1361748219
@@ -20033,6 +20111,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1946244009}
   co2Value: 40
   pointsValue: 3
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1401422209
@@ -20369,6 +20449,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 74001418}
   co2Value: 3
   pointsValue: 1
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1422919048
@@ -20812,6 +20894,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1022418395}
   co2Value: 0.18
   pointsValue: 2
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1436020968
@@ -21195,6 +21279,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 281152999}
   co2Value: 10
   pointsValue: 1
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1451489597
@@ -22330,6 +22416,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1946244009}
   co2Value: 75
   pointsValue: 1
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1551972641
@@ -22788,8 +22876,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -47, y: 117.100006}
-  m_SizeDelta: {x: 142.36, y: 84.3}
+  m_AnchoredPosition: {x: -8.830002, y: 117.100006}
+  m_SizeDelta: {x: 219.72, y: 84.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1561024384
 MonoBehaviour:
@@ -23808,6 +23896,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 443541274}
   co2Value: 0.076
   pointsValue: 0
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1640562389
@@ -24303,6 +24393,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 281152999}
   co2Value: 12
   pointsValue: 0
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!82 &1647936545
@@ -24995,6 +25087,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 836190278}
   co2Value: 10
   pointsValue: 0
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1698657231
@@ -26071,6 +26165,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 2007083693}
   co2Value: 0
   pointsValue: 1
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1775993217
@@ -26571,6 +26667,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1946244009}
   co2Value: 75
   pointsValue: 2
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1819224012
@@ -26907,6 +27005,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 1022418395}
   co2Value: 0.19
   pointsValue: 1
+  isBad: 1
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1834387355
@@ -27367,6 +27467,103 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!1 &1853618464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1853618465}
+  - component: {fileID: 1853618467}
+  - component: {fileID: 1853618466}
+  - component: {fileID: 1853618468}
+  m_Layer: 0
+  m_Name: TipsText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1853618465
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853618464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1058767724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -78.5, y: 94}
+  m_SizeDelta: {x: 522, y: 140.7}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1853618466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853618464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
+    m_FontSize: 15
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 69
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 0.84
+  m_Text: 'Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback '
+--- !u!222 &1853618467
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853618464}
+  m_CullTransparentMesh: 1
+--- !u!114 &1853618468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853618464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869ab53998b7a3a41a92b43b757a1f0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemText: {fileID: 1853618466}
 --- !u!1 &1855662745
 GameObject:
   m_ObjectHideFlags: 0
@@ -27808,6 +28005,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 836190278}
   co2Value: 1.5
   pointsValue: 2
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &1884099366
@@ -28917,6 +29116,123 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2015868479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2015868480}
+  - component: {fileID: 2015868483}
+  - component: {fileID: 2015868482}
+  - component: {fileID: 2015868481}
+  m_Layer: 0
+  m_Name: TipsText2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2015868480
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015868479}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1058767724}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -78.5, y: -381}
+  m_SizeDelta: {x: 522, y: 893.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2015868481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015868479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19fb55e314ea49c468d493b633e5a162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemText: {fileID: 2015868482}
+--- !u!114 &2015868482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015868479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7924528, g: 0.5309842, b: 0.08597367, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
+    m_FontSize: 13
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 69
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 0.84
+  m_Text: 'Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback  Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback Testo di feedback testo di feedback testo di feedback Testo di feedback
+    testo di feedback testo di feedback Testo di feedback testo di feedback testo
+    di feedback '
+--- !u!222 &2015868483
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015868479}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2038072436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29679,6 +29995,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 74001418}
   co2Value: 1
   pointsValue: 2
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &2070138822
@@ -30225,6 +30543,8 @@ MonoBehaviour:
   ActionWheel: {fileID: 836190278}
   co2Value: 0
   pointsValue: 2
+  isBad: 0
+  textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
   clickSFX: {fileID: 8300000, guid: f132774922da19345bbca10982a3f157, type: 3}
 --- !u!95 &2099703029
