@@ -27,4 +27,13 @@ public class PlayerData : MonoBehaviour
     public void increasePoints(int value) {
         footprintPoints+=value;    
     }
+
+    public int getScore() {
+        return footprintPoints;
+    }
+
+    public float getCO2() {
+        return footprintValue;
+    }
+
 }

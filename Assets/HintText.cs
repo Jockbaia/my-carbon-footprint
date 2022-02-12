@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class HintText : MonoBehaviour
 {
     public Text itemText;
-    
 
     // Start is called before the first frame update
     void Start()

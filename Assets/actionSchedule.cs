@@ -5,6 +5,7 @@ using UnityEngine;
 public class actionSchedule : MonoBehaviour
 {
     private const int NUM_EVENTS = 9;
+    private GameObject endingscreen;
     private string[] events = new string[NUM_EVENTS];
     public int counter = 0;
     public bool isCurrentScheduled;
@@ -13,6 +14,7 @@ public class actionSchedule : MonoBehaviour
     
     void Start()
     {
+        endingscreen = GameObject.Find("EndingScreen");
 
         events[0] = "BOTTLE"; // OK
         events[1] = "TRAVEL"; // OK
@@ -41,11 +43,17 @@ public class actionSchedule : MonoBehaviour
         if(isCurrentScheduled) {
             counter++;
         }
+
+        if(counter==2) {
+            endingscreen.GetComponent<RectTransform> ().localScale = new Vector3 (1, 1, 1);
+
+        }
     }
 
     public void setCurrentScheduled(bool myValue) {
         isCurrentScheduled = myValue;
     }
+
 
     // Update is called once per frame
     void Update()
