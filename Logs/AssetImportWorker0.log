@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-Unity Editor version:    2020.3.26f1 (7298b473bc1a)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 10.14.6 (Build 18G103)
-Darwin version:          18.7.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        8192 MB
-Using pre-set license
-Pro License: NO
-
-COMMAND LINE ARGUMENTS:
-/Applications/2020.3.26f1/Unity.app/Contents/MacOS/Unity
-=======
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 15789 MB
@@ -21,62 +5,21 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
->>>>>>> a9797e8ecf2c299c9a31158629c6b94b7102ff63
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-<<<<<<< HEAD
-/Volumes/TOSHIBA EXT/VR
--logFile
-Logs/AssetImportWorker0.log
--srvPort
-64539
-Successfully changed project path to: /Volumes/TOSHIBA EXT/VR
-/Volumes/TOSHIBA EXT/VR
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.26f1 (7298b473bc1a)
-[Subsystems] Discovering subsystems at path /Applications/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Volumes/TOSHIBA EXT/VR/Assets
-GfxDevice: creating device client; threaded=0
-2022-02-13 10:50:05.887 Unity[58765:25910177] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
-2022-02-13 10:50:05.887 Unity[58765:25910177] Metal devices available: 1
-2022-02-13 10:50:05.887 Unity[58765:25910177] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
-2022-02-13 10:50:05.889 Unity[58765:25910177] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
-Initialize mono
-Mono path[0] = '/Applications/2020.3.26f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56765
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: /Applications/2020.3.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000537 seconds.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.003 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1003ms)
-		BeginReloadAssembly (61ms)
-=======
 D:/Documents/GitHub/vr_project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55080
+58777
 Successfully changed project path to: D:/Documents/GitHub/vr_project
 D:/Documents/GitHub/vr_project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -92,281 +35,210 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003290 seconds.
+Registered in 0.003095 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.395 seconds
+- Completed reload, in  1.041 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1395ms)
-		BeginReloadAssembly (136ms)
->>>>>>> a9797e8ecf2c299c9a31158629c6b94b7102ff63
+	ReloadAssembly (1041ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (816ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (283ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (326ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (197ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-=======
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1068ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (459ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (311ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (306ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (30ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
->>>>>>> a9797e8ecf2c299c9a31158629c6b94b7102ff63
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< HEAD
-Registered in 0.003383 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.063 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2064ms)
-		BeginReloadAssembly (258ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1707ms)
-			LoadAssemblies (278ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (572ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (127ms)
-			SetupLoadedEditorAssemblies (525ms)
-=======
-Registered in 0.004293 seconds.
+Registered in 0.005842 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.826 seconds
+- Completed reload, in  1.581 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1827ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (1582ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1525ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1288ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (534ms)
+			SetupTypeCache (442ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (563ms)
->>>>>>> a9797e8ecf2c299c9a31158629c6b94b7102ff63
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (498ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-<<<<<<< HEAD
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (426ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Validating Project structure ... 0.038371 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.058214 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Initializing Unity extensions:
-========================================================================
-Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1646 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.8 MB.
-System memory in use after: 175.4 MB.
-
-Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 2122.
-Total: 4.662938 ms (FindLiveObjects: 0.277139 ms CreateObjectMapping: 0.068321 ms MarkObjects: 3.229353 ms  DeleteObjects: 1.086881 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-=======
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (406ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.6 MB.
-System memory in use after: 81.3 MB.
+System memory in use after: 81.4 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 4.642100 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.061200 ms MarkObjects: 4.012600 ms  DeleteObjects: 0.367800 ms)
+Total: 7.962400 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.113400 ms MarkObjects: 6.972100 ms  DeleteObjects: 0.611900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
->>>>>>> a9797e8ecf2c299c9a31158629c6b94b7102ff63
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-<<<<<<< HEAD
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-=======
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
->>>>>>> a9797e8ecf2c299c9a31158629c6b94b7102ff63
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<< HEAD
-  path: Assets/Camera/porta_ext.fbx
-  artifactKey: Guid(4fbe27d2e484642d98a739042cbfb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Camera/porta_ext.fbx using Guid(4fbe27d2e484642d98a739042cbfb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e54783732adfcc8087728d00b67949a') in 0.590911 seconds 
-  Import took 0.753189 seconds .
+  path: Assets/Mattia/Models/FinestraEsterno.fbx
+  artifactKey: Guid(5f180fb9c5099dd43a0d5e639257b943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Models/FinestraEsterno.fbx using Guid(5f180fb9c5099dd43a0d5e639257b943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5b107f85dc4e6ea8458a23d2658178') in 0.437229 seconds 
+  Import took 0.543840 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Camera/porta_int.fbx
-  artifactKey: Guid(5bdce13e88b924b8385121d307697d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Camera/porta_int.fbx using Guid(5bdce13e88b924b8385121d307697d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362d2ea20a229cdf5449008b487db83a') in 0.060168 seconds 
-  Import took 0.075447 seconds .
+  Time since last request: 45.793121 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat
+  artifactKey: Guid(141b5bb76b8b39342a5a787acbeaabfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat using Guid(141b5bb76b8b39342a5a787acbeaabfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3d071ef5284dde80abdeaf70a7589c') in 1.593299 seconds 
+  Import took 1.618428 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1214.062053 seconds.
-  path: Assets/Camera/Porta.prefab
-  artifactKey: Guid(9a54af59e616745bab6193f42933113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Camera/Porta.prefab using Guid(9a54af59e616745bab6193f42933113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Porta) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:648)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:614)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (Porta) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:602)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorUtility.cs:617)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:98)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:92)
-UnityEditor.GameObjectInspector:GetPreviewData () (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:631)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/GameObjectInspector.cs:841)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:33)
-
-[./Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: 'cc5c57703a7abb785dceabd438c63374') in 0.459142 seconds 
-  Import took 0.499717 seconds .
+  Time since last request: 0.000516 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat
+  artifactKey: Guid(6f36a222811073946936cf1cdeb78f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat using Guid(6f36a222811073946936cf1cdeb78f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64396c089983deed9f70e8b3c6f432b1') in 0.159144 seconds 
+  Import took 0.182314 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3173.033369 seconds.
-  path: Assets/Camera/garage.fbx
-  artifactKey: Guid(974a64ac98d024852a84d6cde3e68e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Camera/garage.fbx using Guid(974a64ac98d024852a84d6cde3e68e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de788093b6bea888ce37b23d9ccac84d') in 0.208194 seconds 
-  Import took 0.271130 seconds .
-
-=======
-  path: Assets/Mattia/Prefabs/Scale.prefab
-  artifactKey: Guid(3589d7f56858a34428480bf668644360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mattia/Prefabs/Scale.prefab using Guid(3589d7f56858a34428480bf668644360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c1545e0ad9e11eaebcc6883dfb4439') in 0.231437 seconds 
-  Import took 0.285010 seconds .
+  Time since last request: 0.000538 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat
+  artifactKey: Guid(365a29a7757a91544b92d59a78390495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat using Guid(365a29a7757a91544b92d59a78390495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b76b9006daba3726981f4379d4d75c') in 0.797762 seconds 
+  Import took 0.803612 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 171.258417 seconds.
-  path: Assets/Mattia/Prefabs/FinestraEsterno.prefab
-  artifactKey: Guid(9faf0915d6361bd45bfd0ab02c3378ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mattia/Prefabs/FinestraEsterno.prefab using Guid(9faf0915d6361bd45bfd0ab02c3378ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01df8dc5bd26a835a37b7b32cbea20c2') in 0.077512 seconds 
-  Import took 0.133526 seconds .
+  Time since last request: 0.000292 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat
+  artifactKey: Guid(ef1216aa37a0cc249a6a6f5abbd25665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat using Guid(ef1216aa37a0cc249a6a6f5abbd25665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8a24241be12a66907c0e109ba2d65b') in 0.699485 seconds 
+  Import took 0.728701 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 156.299678 seconds.
-  path: Assets/Mattia/Prefabs/FinestraEsterno.prefab
-  artifactKey: Guid(9faf0915d6361bd45bfd0ab02c3378ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mattia/Prefabs/FinestraEsterno.prefab using Guid(9faf0915d6361bd45bfd0ab02c3378ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5d3218d17ff26d3216794eae193943') in 0.083224 seconds 
-  Import took 0.088523 seconds .
+  Time since last request: 0.000690 seconds.
+  path: Assets/Materials/Armadio.mat
+  artifactKey: Guid(62a051932073248799dc3bddf0e4e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Armadio.mat using Guid(62a051932073248799dc3bddf0e4e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0e67542e4456e7de40071cb54334f5') in 0.083570 seconds 
+  Import took 0.135886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.699825 seconds.
-  path: Assets/Mattia/Prefabs/FinestraEsterno 1.prefab
-  artifactKey: Guid(4b7825342f702a14cbc26d21cd2558ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mattia/Prefabs/FinestraEsterno 1.prefab using Guid(4b7825342f702a14cbc26d21cd2558ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb7c9b6930124c36fdb5643d47093b8') in 0.080552 seconds 
-  Import took 0.197350 seconds .
+  Time since last request: 0.000309 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat
+  artifactKey: Guid(f5a209142cf260f4a96ca747e0e4dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat using Guid(f5a209142cf260f4a96ca747e0e4dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3548c6891d05e8e691e808624ea089ee') in 0.363832 seconds 
+  Import took 0.369788 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 227.280494 seconds.
-  path: Assets/Mattia/Prefabs/FinestraEsterno.prefab
-  artifactKey: Guid(9faf0915d6361bd45bfd0ab02c3378ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mattia/Prefabs/FinestraEsterno.prefab using Guid(9faf0915d6361bd45bfd0ab02c3378ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da60a1204157e83dee255d9b92bd54e') in 0.061226 seconds 
-  Import took 0.103371 seconds .
+  Time since last request: 0.000404 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat
+  artifactKey: Guid(9cc96cc80c50454429965171ff4e500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat using Guid(9cc96cc80c50454429965171ff4e500d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcb86cb23b240b30949f6b23eccb56f') in 0.120505 seconds 
+  Import took 0.168113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat
+  artifactKey: Guid(42672579dbdf2c8449598d21e2c569ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat using Guid(42672579dbdf2c8449598d21e2c569ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f40133986bd05e5f620a3de9abb0c5') in 0.091720 seconds 
+  Import took 0.188717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat
+  artifactKey: Guid(d5b08f0e43171dd468f4fed8bb5d0cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat using Guid(d5b08f0e43171dd468f4fed8bb5d0cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc903bc7fc6fb04b8396ed2cc225d37') in 0.090053 seconds 
+  Import took 0.114019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.972729 seconds.
+  path: Assets/Mattia/Texture
+  artifactKey: Guid(b853c9fe61a61724ebcfff956844d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Texture using Guid(b853c9fe61a61724ebcfff956844d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e256d4345d5fbe9e51c30d849196c702') in 0.078497 seconds 
+  Import took 0.111161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.394141 seconds.
+  path: Assets/Mattia/Texture/Scale
+  artifactKey: Guid(42ebaa04fb055d148981b7a76d6fa7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Texture/Scale using Guid(42ebaa04fb055d148981b7a76d6fa7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656f323208ddbdd898754c78d49ddcb7') in 0.060191 seconds 
+  Import took 0.171319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.091874 seconds.
+  path: Assets/Mattia/Texture/FinestraEsterna
+  artifactKey: Guid(d8ec6257a629aad48bf806329b7560d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Texture/FinestraEsterna using Guid(d8ec6257a629aad48bf806329b7560d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f8283215c0caa6e6234dd6e01a63a6') in 0.084197 seconds 
+  Import took 0.155315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 223.971660 seconds.
+  path: Assets/Mattia/FinestraEsterno_FinestraEsterno_Mat_BaseColor.png
+  artifactKey: Guid(3f7d64949635257428cb39a90361e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/FinestraEsterno_FinestraEsterno_Mat_BaseColor.png using Guid(3f7d64949635257428cb39a90361e60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d17404df1dc33c4b5fc6ae3d6175a68') in 0.135636 seconds 
+  Import took 0.141634 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
->>>>>>> a9797e8ecf2c299c9a31158629c6b94b7102ff63
