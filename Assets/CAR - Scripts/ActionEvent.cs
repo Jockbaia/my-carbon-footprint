@@ -44,7 +44,7 @@ public class ActionEvent : MonoBehaviour
         Debug.Log("Entering");
         if((string.Equals(player.GetComponent<actionSchedule>().getID(),ID) || !isScheduled) && !isDone) {
             // Enabling glow
-            mr.material.EnableKeyword("_EMISSION");
+            // mr.material.EnableKeyword("_EMISSION");
         }
 
     }
