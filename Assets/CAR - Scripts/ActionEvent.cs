@@ -7,6 +7,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class ActionEvent : MonoBehaviour
 {
+    private Animator animator;
     public string ID;
     public bool isScheduled;
     private bool isDone;
@@ -19,12 +20,18 @@ public class ActionEvent : MonoBehaviour
     private GameObject hintBTN;
     private GameObject piedinoBTN;
     private GameObject player;
+	[SerializeField] public GameObject toAnimate;
     AudioSource clickSFX;
     MeshRenderer mr;
  
     // Start is called before the first frame update
     void Start()
     {
+
+		if(toAnimate != null){
+			animator = toAnimate.GetComponent<Animator>();
+		}
+		
         clickSFX = GetComponent<AudioSource>();
         mr = GetComponent<MeshRenderer>();
         ActionWheel.SetActive(false);
@@ -62,8 +69,15 @@ public class ActionEvent : MonoBehaviour
 
     // Left click on the object
     void OnMouseDown(){
-        Debug.Log("Clicking");
+        Debug.Log("Clicking On Object");
 
+		if(animator != null){
+			Debug.Log("SONO DENTRO UN ANIMATOR DI NOME: " + animator.name);
+			animator.SetBool("Active", true);
+			Debug.Log("BOOL: " + animator.GetBool("Active"));
+
+		}
+		
         hintBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0, (float) 0, 1);
         piedinoText.GetComponent<TextPiedino>().setFeedback(feedback);
         
@@ -89,6 +103,7 @@ public class ActionEvent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         
     }
 }

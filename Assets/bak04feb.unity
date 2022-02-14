@@ -1571,6 +1571,7 @@ MonoBehaviour:
     ha dimostrato che un abbassamento di 10\xB0\u2009C produce una riduzione di consumo
     prossima   al 20% sia per i programmi cotone che per i sintetici. "
   ActionWheel: {fileID: 1022418395}
+  toAnimate: {fileID: 0}
 --- !u!82 &174785624
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2135,6 +2136,7 @@ MonoBehaviour:
   intro: 
   feedback: 
   ActionWheel: {fileID: 281152999}
+  toAnimate: {fileID: 0}
 --- !u!82 &226707674
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4016,6 +4018,7 @@ MonoBehaviour:
     dell\u2019emissione di gas serra nell\u2019atmosfera, producendo il 14% delle
     emissioni globali \u2013 pi\xF9 dell\u2019intero settore dei trasporti."
   ActionWheel: {fileID: 74001418}
+  toAnimate: {fileID: 0}
 --- !u!1 &339804451
 GameObject:
   m_ObjectHideFlags: 0
@@ -6115,6 +6118,7 @@ MonoBehaviour:
     diretta alla cosiddetta consumer care, esso aumenta di 5 volte la quantit\xE0
     di rifiuti di imballaggi post-consumo rispetto al caff\xE8 fatto con la moka."
   ActionWheel: {fileID: 443541274}
+  toAnimate: {fileID: 0}
 --- !u!82 &477736321
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7020,6 +7024,7 @@ MonoBehaviour:
     produzione di alimenti. Bevande come t\xE8, e caff\xE8 incidono per 15,1% totalizzando
     23,6% solo per la colazione."
   ActionWheel: {fileID: 1188763180}
+  toAnimate: {fileID: 0}
 --- !u!82 &543290359
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7116,6 +7121,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &543290360
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543290353}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &563521373
 GameObject:
   m_ObjectHideFlags: 0
@@ -7701,6 +7725,7 @@ MonoBehaviour:
     podio battendo di gran lunga gli \u201Cavversari\u201D che producono quantit\xE0
     ben superiori (fino al 91% in pi\xF9)."
   ActionWheel: {fileID: 1946244009}
+  toAnimate: {fileID: 0}
 --- !u!82 &620350844
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8429,6 +8454,7 @@ MonoBehaviour:
     con spostamenti in bicicletta per ridurre di  mezza tonnellata nel corso di un
     anno l\u2019impatto delle emissioni di Co2."
   ActionWheel: {fileID: 836190278}
+  toAnimate: {fileID: 0}
 --- !u!82 &643609973
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12253,6 +12279,7 @@ MonoBehaviour:
     di pi\xF9 dei trasporti. Ogni grado in pi\xF9 sul termostato consuma circa 300
     kg di CO2 in pi\xF9 all\u2019anno."
   ActionWheel: {fileID: 281152999}
+  toAnimate: {fileID: 0}
 --- !u!1001 &819084993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13901,7 +13928,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bf0a3b7bcbdc645279eb9c55cb7afb27, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf0a3b7bcbdc645279eb9c55cb7afb27, type: 3}
       propertyPath: m_LocalScale.x
@@ -14189,6 +14216,7 @@ MonoBehaviour:
   intro: 
   feedback: FEEDBACK ROOMBA da inserire
   ActionWheel: {fileID: 2007083693}
+  toAnimate: {fileID: 0}
 --- !u!82 &990497417
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14727,6 +14755,7 @@ MonoBehaviour:
     due) e 2 kg di petrolio. Considerando anche l\u2019impatto dei trasporti si ha
     un'emissione totale di 265.000 tonnellate di CO2 per 1 kg di PET. "
   ActionWheel: {fileID: 842531280}
+  toAnimate: {fileID: 0}
 --- !u!82 &1030302395
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16325,6 +16354,7 @@ MonoBehaviour:
     il loro consumo annuo di acqua sar\xE0 di 80 mila litri: ci\xF2 equivale a emettere
     3,5 tonnellate di CO2 all\u2019anno."
   ActionWheel: {fileID: 748062680}
+  toAnimate: {fileID: 0}
 --- !u!82 &1110736177
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16836,7 +16866,7 @@ PrefabInstance:
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 400003120}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -17045,6 +17075,7 @@ MonoBehaviour:
     con spostamenti in bicicletta per ridurre di  mezza tonnellata nel corso di un
     anno l\u2019impatto delle emissioni di Co2."
   ActionWheel: {fileID: 836190278}
+  toAnimate: {fileID: 0}
 --- !u!82 &1153803121
 AudioSource:
   m_ObjectHideFlags: 0
@@ -20776,7 +20807,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5515cbf0e1c22494aa6f3344a1a9367f, type: 2}
     - target: {fileID: 3530341093024361289, guid: afa8d22f7dd8cc342b3a6d2bc702c8bb, type: 3}
       propertyPath: m_Name
-      value: MacchinettaCaffe (1)
+      value: MacchinettaCaffe
       objectReference: {fileID: 0}
     - target: {fileID: 3530341093024361289, guid: afa8d22f7dd8cc342b3a6d2bc702c8bb, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20837,6 +20868,10 @@ PrefabInstance:
     - target: {fileID: 4302514522509160947, guid: afa8d22f7dd8cc342b3a6d2bc702c8bb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7079159549177377705, guid: afa8d22f7dd8cc342b3a6d2bc702c8bb, type: 3}
+      propertyPath: m_Name
+      value: MacchinettaCaffeAnim
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afa8d22f7dd8cc342b3a6d2bc702c8bb, type: 3}
@@ -21115,6 +21150,7 @@ MonoBehaviour:
     diretta alla cosiddetta consumer care, esso aumenta di 5 volte la quantit\xE0
     di rifiuti di imballaggi post-consumo rispetto al caff\xE8 fatto con la moka."
   ActionWheel: {fileID: 443541274}
+  toAnimate: {fileID: 0}
 --- !u!82 &1397990946
 AudioSource:
   m_ObjectHideFlags: 0
@@ -27115,6 +27151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4271766312459663042, guid: c65c3c39f3bb0ea4e80a15667e2c8aa7, type: 3}
+      propertyPath: m_Name
+      value: MokaAnim
+      objectReference: {fileID: 0}
     - target: {fileID: 4705571704018381256, guid: c65c3c39f3bb0ea4e80a15667e2c8aa7, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -27173,7 +27213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5334052118382080882, guid: c65c3c39f3bb0ea4e80a15667e2c8aa7, type: 3}
       propertyPath: m_Name
-      value: Moka (1)
+      value: Moka
       objectReference: {fileID: 0}
     - target: {fileID: 5334052118382080882, guid: c65c3c39f3bb0ea4e80a15667e2c8aa7, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29525,6 +29565,7 @@ MonoBehaviour:
     CO2 per ogni kWh prodotto e consumato, si avranno emissioni di CO2 annue per
     un totale di 23 kg."
   ActionWheel: {fileID: 1535417287}
+  toAnimate: {fileID: 0}
 --- !u!82 &1896331338
 AudioSource:
   m_ObjectHideFlags: 0
@@ -32178,11 +32219,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3040452589740889924, guid: b4b78a313b52329469d69baf7a4b7aca, type: 3}
       propertyPath: m_Name
-      value: Cucina (1)
+      value: Cucina
       objectReference: {fileID: 0}
     - target: {fileID: 3040452589740889924, guid: b4b78a313b52329469d69baf7a4b7aca, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401959931288350723, guid: b4b78a313b52329469d69baf7a4b7aca, type: 3}
+      propertyPath: m_Name
+      value: CucinaMobileSopraAnim
       objectReference: {fileID: 0}
     - target: {fileID: 4070078229143636668, guid: b4b78a313b52329469d69baf7a4b7aca, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32360,12 +32405,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 946696664918135339, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
+      propertyPath: m_Name
+      value: FrigoStructure
+      objectReference: {fileID: 0}
+    - target: {fileID: 946696664918135339, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4352292877491864688, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
+      propertyPath: m_Name
+      value: FrigoAnim
+      objectReference: {fileID: 0}
     - target: {fileID: 6139121615235866724, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
       propertyPath: m_Name
-      value: EmptyFrigo
+      value: Frigo
       objectReference: {fileID: 0}
     - target: {fileID: 6139121615235866727, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
       propertyPath: m_RootOrder
@@ -32600,6 +32653,7 @@ MonoBehaviour:
     dell\u2019emissione di gas serra nell\u2019atmosfera, producendo il 14% delle
     emissioni globali \u2013 pi\xF9 dell\u2019intero settore dei trasporti."
   ActionWheel: {fileID: 74001418}
+  toAnimate: {fileID: 0}
 --- !u!1001 &6510195069635027993
 PrefabInstance:
   m_ObjectHideFlags: 0
