@@ -42,7 +42,7 @@ public class piedinoBehaviour : MonoBehaviour
         isShown = 1;    
         anim.SetBool("showPiedino", true);
         piedinoBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0, 0, 1);
-        hintBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0, (float) 0, 1);
+        
 
     }
 

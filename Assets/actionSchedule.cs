@@ -10,7 +10,6 @@ public class actionSchedule : MonoBehaviour
     public int counter = 0;
     public bool isCurrentScheduled;
     private GameObject finalhint;
-
     
     // Start is called before the first frame update
     
@@ -52,9 +51,12 @@ public class actionSchedule : MonoBehaviour
             counter++;
         }
 
+        // FINALE
+
         if(counter==8) {
             finalhint.GetComponent<showTipContext> ().setFinalHint();
             endingscreen.GetComponent<RectTransform> ().localScale = new Vector3 (1, 1, 1);
+            endingscreen.GetComponent<returnToMainScreen> ().setEndFlag();
 
         }
     }
