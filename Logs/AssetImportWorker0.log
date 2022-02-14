@@ -1072,3 +1072,4 @@ Received Import Request.
 Start importing Assets/Caffettiera.fbx using Guid(9bcff057ee8f98f4e8c7973b136e663f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d792210798111f44f5e4638cbab9ddd') in 0.338586 seconds 
   Import took 0.342367 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
