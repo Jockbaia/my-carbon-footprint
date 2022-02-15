@@ -28,10 +28,6 @@ public class ActionEvent : MonoBehaviour
     void Start()
     {
 
-		if(toAnimate != null){
-			animator = toAnimate.GetComponent<Animator>();
-		}
-		
         clickSFX = GetComponent<AudioSource>();
         mr = GetComponent<MeshRenderer>();
         ActionWheel.SetActive(false);
@@ -69,15 +65,8 @@ public class ActionEvent : MonoBehaviour
 
     // Left click on the object
     void OnMouseDown(){
-        Debug.Log("Clicking On Object");
+        Debug.Log("Clicking On Object:" + gameObject.name);
 
-		if(animator != null){
-			Debug.Log("SONO DENTRO UN ANIMATOR DI NOME: " + animator.name);
-			animator.SetBool("Active", true);
-			Debug.Log("BOOL: " + animator.GetBool("Active"));
-
-		}
-		
         hintBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0, (float) 0, 1);
         piedinoText.GetComponent<TextPiedino>().setFeedback(feedback);
         
@@ -99,11 +88,12 @@ public class ActionEvent : MonoBehaviour
         
 
     }
+	
+
 
     // Update is called once per frame
     void Update()
     {
 
-        
     }
 }

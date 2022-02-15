@@ -4066,6 +4066,20 @@ MonoBehaviour:
     emissioni globali \u2013 pi\xF9 dell\u2019intero settore dei trasporti."
   ActionWheel: {fileID: 74001418}
   toAnimate: {fileID: 1646837093}
+--- !u!114 &338841540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338841533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32251d2b3dd2c444faab6461af9806d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOpen: 0
+  toAnimate: {fileID: 1646837093}
 --- !u!1 &339804451
 GameObject:
   m_ObjectHideFlags: 0
@@ -16912,7 +16926,7 @@ PrefabInstance:
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 400003120}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -32760,7 +32774,7 @@ PrefabInstance:
     - target: {fileID: 4352292877491864691, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 617debcaeb99bd041a268e6c5d22a412, type: 2}
     - target: {fileID: 6139121615235866724, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
       propertyPath: m_Name
       value: Frigo
@@ -32824,6 +32838,26 @@ PrefabInstance:
     - target: {fileID: 6139121615235866727, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833653224368704410, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833653224368704410, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833653224368704410, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833653224368704410, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833653224368704410, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d266fa470bf9d4485849bf20407373, type: 3}
@@ -33003,25 +33037,20 @@ MonoBehaviour:
     emissioni globali \u2013 pi\xF9 dell\u2019intero settore dei trasporti."
   ActionWheel: {fileID: 74001418}
   toAnimate: {fileID: 1646837093}
---- !u!95 &6139121615773582408
-Animator:
-  serializedVersion: 3
+--- !u!114 &6139121615773582408
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6139121615773582402}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 617debcaeb99bd041a268e6c5d22a412, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32251d2b3dd2c444faab6461af9806d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOpen: 0
+  toAnimate: {fileID: 1646837093}
 --- !u!1001 &6510195069635027993
 PrefabInstance:
   m_ObjectHideFlags: 0
