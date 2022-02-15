@@ -13,10 +13,13 @@ public class AI_agent : MonoBehaviour
 
     [Range(0, 100)] public float speed;
     [Range(1, 500)] public float walkRadius;
+
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+
+
         if(agent != null){
 
             agent.speed = speed;
@@ -44,5 +47,15 @@ public class AI_agent : MonoBehaviour
 
             agent.SetDestination(RandomLocation());
         }
+    }
+
+    public void stopRoomba() {
+
+        agent.speed = 0;
+        agent.angularSpeed = 0;
+        agent.acceleration = 0;
+        agent.stoppingDistance = 0;
+        speed = 0;
+        walkRadius = 0;
     }
 }

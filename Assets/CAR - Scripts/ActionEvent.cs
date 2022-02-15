@@ -18,6 +18,7 @@ public class ActionEvent : MonoBehaviour
     private GameObject piedinoText;
     private GameObject hintText;
     private GameObject hintBTN;
+    private GameObject screen;
     private GameObject piedinoBTN;
     private GameObject player;
 	[SerializeField] public GameObject toAnimate;
@@ -36,6 +37,7 @@ public class ActionEvent : MonoBehaviour
         piedinoText = GameObject.Find("PiedinoText");
         hintText = GameObject.Find("HintText");
         hintBTN = GameObject.Find("PlayerHints");  
+        screen = GameObject.Find("SchermoPC");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         isDone = false;
@@ -66,6 +68,12 @@ public class ActionEvent : MonoBehaviour
     // Left click on the object
     void OnMouseDown(){
         Debug.Log("Clicking On Object:" + gameObject.name);
+
+        // PC - accendi
+        if(string.Equals(player.GetComponent<actionSchedule>().getID(), "TRAVEL")) {
+            Debug.Log("Schermo");
+            screen.GetComponent<Transform> ().localScale = new Vector3((float) -0.008166407, (float) 41.64621, (float) 63.08562);
+        }
 
         hintBTN.GetComponent<RectTransform> ().localScale = new Vector3 ((float) 0, (float) 0, 1);
         piedinoText.GetComponent<TextPiedino>().setFeedback(feedback);
