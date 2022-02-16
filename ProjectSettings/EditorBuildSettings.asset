@@ -17,7 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/main.bak3.unity
     guid: b3364e7211b52984e9a61b84a2160e68
+  - enabled: 0
+    path: Assets/Scenes/main.bak4.unity
+    guid: 4e5f37f4c5e849b4490b8c955b898eb7
   - enabled: 1
     path: Assets/Scenes/main.unity
-    guid: 4e5f37f4c5e849b4490b8c955b898eb7
+    guid: bf280381e32855649a1167db69e154d4
   m_configObjects: {}
