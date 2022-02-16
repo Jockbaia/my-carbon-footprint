@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 6c5c1845f1be74a49b4723f83f20504d, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: e0a8d6cd7b2aef34cbf51317f5c54c90, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 257c4ec9cf175a249aaceb84ae738628, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -6727,7 +6727,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5f54cdde803139a4eb919613f789d381, type: 2}
     - target: {fileID: -3060710765412239461, guid: 8ade431d538432a43ae6f2893c2bf5f9, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2836546347097451776, guid: 8ade431d538432a43ae6f2893c2bf5f9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6755,7 +6755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 880032724719012523, guid: 8ade431d538432a43ae6f2893c2bf5f9, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8ade431d538432a43ae6f2893c2bf5f9, type: 3}
       propertyPath: m_Name
@@ -6771,7 +6771,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5f54cdde803139a4eb919613f789d381, type: 2}
     - target: {fileID: 3739683910669726796, guid: 8ade431d538432a43ae6f2893c2bf5f9, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6884490679376836614, guid: 8ade431d538432a43ae6f2893c2bf5f9, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -17299,7 +17299,7 @@ PrefabInstance:
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_PrefabInstance: {fileID: 400003120}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -33145,7 +33145,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!95 &1732332484153526948
 Animator:
