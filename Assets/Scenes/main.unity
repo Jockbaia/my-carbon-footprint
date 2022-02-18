@@ -701,6 +701,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: doccia_20
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -1179,6 +1191,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: doccia_1015
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -1475,7 +1499,7 @@ RectTransform:
   - {fileID: 1019611790}
   - {fileID: 2113717878}
   m_Father: {fileID: 226707672}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2167,6 +2191,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 253031596}
   - {fileID: 2089496914}
   - {fileID: 704786058}
   - {fileID: 1855662746}
@@ -2918,6 +2943,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: lavatrice_altri
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -3355,6 +3392,171 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.5890923, y: 0.4329745, z: 3.2767887}
   m_Center: {x: 0.013185501, y: -0.016799219, z: -0.82580227}
+--- !u!1 &253031593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 253031596}
+  - component: {fileID: 253031594}
+  - component: {fileID: 253031595}
+  m_Layer: 0
+  m_Name: AudioFeedbackManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &253031594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253031593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2727ee7cb9029d4a8dd414a1bf45c23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TTS_Termosifone_Altri: {fileID: 8300000, guid: f0b0fe6100b43ec48825ac7cfce383a9, type: 3}
+  TTS_Termosifone_Off: {fileID: 8300000, guid: 17f5f122d79a54f44bef4e6b22687a92, type: 3}
+  TTS_PC_Altri: {fileID: 8300000, guid: 8ffeaa32a4ba9274c94549fa7d287a4f, type: 3}
+  TTS_PC_Treno: {fileID: 8300000, guid: d4487fc6959886b49a0beb53d5e54c74, type: 3}
+  TTS_Bottiglia_Butto: {fileID: 8300000, guid: 88f75ff4e8c672344ade15cba61c830a, type: 3}
+  TTS_Bottiglia_Riutilizzo: {fileID: 8300000, guid: 805d7a23d3e1a70498f82723b6439cc4, type: 3}
+  TTS_Caffe_Macchinetta: {fileID: 8300000, guid: 3e0167da6ad16fc458d8fccafdee4b3f, type: 3}
+  TTS_Caffe_Moka: {fileID: 8300000, guid: 889ab025eaf91b14889c56df88838577, type: 3}
+  TTS_Dispensa_Biscotti: {fileID: 8300000, guid: 2d97c458e9e3be34b8dc3dc17b92e259, type: 3}
+  TTS_Dispensa_Pane: {fileID: 8300000, guid: 08826a2b70d67db40a4897f4d0773009, type: 3}
+  TTS_Doccia_5: {fileID: 8300000, guid: a31635192a77fb644bfa2859967de52e, type: 3}
+  TTS_Doccia_1015: {fileID: 8300000, guid: 65312f4a6c13c9c439ab4f9fcf2883b2, type: 3}
+  TTS_Doccia_20: {fileID: 8300000, guid: e1adc2daea4c83b47a44381bd1326f8b, type: 3}
+  TTS_Frigo_Bacon: {fileID: 8300000, guid: baaad8e944b7c1a41a22e1d9842bd51b, type: 3}
+  TTS_Frigo_Mela_Marmellata: {fileID: 8300000, guid: decd3558667b24a4e81cdb80ef8a7490, type: 3}
+  TTS_Frigo_Uova: {fileID: 8300000, guid: 480c613f125f8fb42952599e6b93a6cb, type: 3}
+  TTS_Lavatrice_30: {fileID: 8300000, guid: d1074f15c48b24942a4da1192ac29e6c, type: 3}
+  TTS_Lavatrice_Altri: {fileID: 8300000, guid: 1f54d525786364d469796b3254781e87, type: 3}
+  TTS_Lavoro_Auto: {fileID: 8300000, guid: 91fc0c11c06b0a34394c39144e5504f9, type: 3}
+  TTS_Lavoro_Bici: {fileID: 8300000, guid: 1acf5b9908ff3be48bee3cb3f3d705a1, type: 3}
+  TTS_Lavoro_Mezzi_Amici: {fileID: 8300000, guid: ae3f410fbe3007a48ad44a290c3429af, type: 3}
+  TTS_Luci_Accese: {fileID: 8300000, guid: 554d9df17302aa145b92e2c052dd1299, type: 3}
+  TTS_Luci_Spengo: {fileID: 8300000, guid: d9204637e689269419d6b5afd1ab262c, type: 3}
+  TTS_Roomba_Acceso: {fileID: 8300000, guid: eb12d39911e099e478b0f9a9916478ea, type: 3}
+  TTS_Roomba_Spento: {fileID: 8300000, guid: a83816d5b0ad1114a841625b357eaa76, type: 3}
+--- !u!82 &253031595
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253031593}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &253031596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253031593}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 49128.09, y: 1245.0001, z: -17449.76}
+  m_LocalScale: {x: 1976.1903, y: 1976.1903, z: 1976.1903}
+  m_Children: []
+  m_Father: {fileID: 226707672}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &269012695
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,6 +4594,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: pc_altri
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -5324,6 +5538,18 @@ MonoBehaviour:
         - m_Target: {fileID: 385646337}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: lavatrice_altri
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -6308,6 +6534,18 @@ MonoBehaviour:
         - m_Target: {fileID: 456897537}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: frigo_bacon
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -9273,6 +9511,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: luci_spengo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -9615,6 +9865,18 @@ MonoBehaviour:
         - m_Target: {fileID: 652248765}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: luci_accese
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -10383,7 +10645,7 @@ RectTransform:
   - {fileID: 1535417288}
   - {fileID: 2007083694}
   m_Father: {fileID: 226707672}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10817,7 +11079,7 @@ RectTransform:
   - {fileID: 1058767724}
   - {fileID: 269012696}
   m_Father: {fileID: 226707672}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11058,6 +11320,18 @@ MonoBehaviour:
         - m_Target: {fileID: 759240753}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: doccia_1015
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -12128,6 +12402,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: dispensa_pane
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -13032,6 +13318,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: dispensa_biscotti
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -13361,6 +13659,18 @@ MonoBehaviour:
         - m_Target: {fileID: 854978868}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: lavatrice_30
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -15527,6 +15837,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: frigo_mela_marmellata
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -15968,6 +16290,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1061645798}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: bottiglia_riutilizzo
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -17040,6 +17374,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: bottiglia_butto
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -17840,6 +18186,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: termosifone_altri
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -18360,6 +18718,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1183925947}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: doccia_5
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -19820,6 +20190,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: roomba_acceso
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -20292,6 +20674,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1319047307}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: termosifone_off
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -21058,6 +21452,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1361748218}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: caffe_moka
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -22123,6 +22529,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: pc_treno
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -22452,6 +22870,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1422919047}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: frigo_uova
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -22907,6 +23337,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: lavatrice_altri
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -23299,6 +23741,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1451489596}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: termosifone_altri
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -24767,6 +25221,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: pc_altri
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -26153,6 +26619,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: caffe_macchinetta
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -26764,6 +27242,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: termosifone_altri
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -26844,7 +27334,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -27388,6 +27878,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1698657230}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: lavoro_auto
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -28493,6 +28995,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: roomba_spento
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -28916,6 +29430,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: pc_altri
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -29245,6 +29771,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1834387354}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: lavatrice_altri
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -29772,7 +30310,7 @@ RectTransform:
   m_Children:
   - {fileID: 2061427622}
   m_Father: {fileID: 226707672}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -30128,6 +30666,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1884099365}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: lavoro_bici
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -31843,6 +32393,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: frigo_mela_marmellata
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 10
     callback:
       m_PersistentCalls:
@@ -32272,7 +32834,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 226707672}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -32542,6 +33104,18 @@ MonoBehaviour:
         - m_Target: {fileID: 2099703028}
           m_TargetAssemblyTypeName: ActionButtonController, Assembly-CSharp
           m_MethodName: Selected
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 253031594}
+          m_TargetAssemblyTypeName: playSoundfeedback, Assembly-CSharp
+          m_MethodName: lavoro_mezzi_amici
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
