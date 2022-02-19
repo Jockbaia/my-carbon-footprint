@@ -21,6 +21,8 @@ public class ActionEvent : MonoBehaviour
     private GameObject screen;
     private GameObject piedinoBTN;
     private GameObject player;
+
+
 	[SerializeField] public GameObject toAnimate;
     AudioSource clickSFX;
     MeshRenderer mr;
@@ -28,7 +30,6 @@ public class ActionEvent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         clickSFX = GetComponent<AudioSource>();
         mr = GetComponent<MeshRenderer>();
         ActionWheel.SetActive(false);
@@ -43,6 +44,8 @@ public class ActionEvent : MonoBehaviour
         isDone = false;
 
     }
+
+
 
     // Crossover hovering the object
     void OnMouseEnter() {
@@ -102,6 +105,13 @@ public class ActionEvent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if((string.Equals(player.GetComponent<actionSchedule>().getID(),ID) || !isScheduled) && !isDone) {
+            GetComponent<Outline>().enabled = true;
+        }
+
+        else {
+            GetComponent<Outline>().enabled = false;
+        }
 
     }
 }
