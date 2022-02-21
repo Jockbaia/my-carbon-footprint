@@ -22,63 +22,372 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49483
+49866
 Successfully changed project path to: /Volumes/TOSHIBA EXT/VR
 /Volumes/TOSHIBA EXT/VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Volumes/TOSHIBA EXT/VR/Assets
 GfxDevice: creating device client; threaded=0
-2022-02-21 16:39:04.016 Unity[1460:24408] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
-2022-02-21 16:39:04.016 Unity[1460:24408] Metal devices available: 1
-2022-02-21 16:39:04.016 Unity[1460:24408] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
-2022-02-21 16:39:04.017 Unity[1460:24408] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-02-21 18:23:16.217 Unity[5680:521194] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-02-21 18:23:16.217 Unity[5680:521194] Metal devices available: 1
+2022-02-21 18:23:16.217 Unity[5680:521194] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-02-21 18:23:16.218 Unity[5680:521194] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
 Initialize mono
 Mono path[0] = '/Applications/2020.3.26f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003571 seconds.
+Registered in 0.000789 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 59.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
+- Completed reload, in  0.932 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (849ms)
-			LoadAssemblies (54ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (274ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (331ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.111279 seconds.
+Registered in 0.002632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.680 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1680ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1376ms)
+			LoadAssemblies (295ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.018830 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.632593 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.1 MB.
+
+Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 6.370824 ms (FindLiveObjects: 0.294415 ms CreateObjectMapping: 0.160850 ms MarkObjects: 4.964118 ms  DeleteObjects: 0.948884 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Garage/mensola_garage.fbx
+  artifactKey: Guid(0e1cae9829fc34c7fbbb4e4e2102ac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/mensola_garage.fbx using Guid(0e1cae9829fc34c7fbbb4e4e2102ac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df7c526753bd686b24097cb75840bba') in 0.485987 seconds 
+  Import took 0.536090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1160.126198 seconds.
+  path: Assets/Garage/armadio_garage 1.fbx
+  artifactKey: Guid(640793da4f1914f019f0954847e6af84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/armadio_garage 1.fbx using Guid(640793da4f1914f019f0954847e6af84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59984e4f36a6a023c390af8295b43b9d') in 0.079053 seconds 
+  Import took 0.099007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.051640 seconds.
+  path: Assets/Garage/armadio_garage.fbx
+  artifactKey: Guid(eb06ba059c813406596080251af487fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/armadio_garage.fbx using Guid(eb06ba059c813406596080251af487fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952f17ed9164121424a5b4e962ff1276') in 0.086716 seconds 
+  Import took 0.122338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1374.354815 seconds.
+  path: Assets/Garage/mensolotto_garage.fbx
+  artifactKey: Guid(6e6171e4b9504415d9018a1b955d4a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Garage/mensolotto_garage.fbx using Guid(6e6171e4b9504415d9018a1b955d4a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3076b1b802ced220aa300047a87bc7b3') in 0.078536 seconds 
+  Import took 0.111135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1531.180757 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga
+  artifactKey: Guid(b063a9f2b9f645b40948a32b447c738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga using Guid(b063a9f2b9f645b40948a32b447c738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2001e19cd3158a2d8cef697176415156') in 0.375019 seconds 
+  Import took 0.409107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Materials/CucinaMobileSopra.mat
+  artifactKey: Guid(7c52ade8a747bd443b7fbb9c4796b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CucinaMobileSopra.mat using Guid(7c52ade8a747bd443b7fbb9c4796b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb26f3e99905f51eeb9e89a92e7f699') in 0.575210 seconds 
+  Import took 0.606898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga
+  artifactKey: Guid(db2f1c62933fa1745a9eb8479b15698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga using Guid(db2f1c62933fa1745a9eb8479b15698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c814a8234dfc403fde788f7266fecaa') in 0.050813 seconds 
+  Import took 0.070600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Materials/CucinaAntaMobile.mat
+  artifactKey: Guid(ea307fbb70a84f84c91bdb099e0f960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CucinaAntaMobile.mat using Guid(ea307fbb70a84f84c91bdb099e0f960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e3513456b595e8eb9b35107c1d0724') in 0.148120 seconds 
+  Import took 0.174745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Materials/CucinaMobileSotto.mat
+  artifactKey: Guid(b41e52c27c8a0704fa072872a4506b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CucinaMobileSotto.mat using Guid(b41e52c27c8a0704fa072872a4506b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9438479e9ec31c5c428fafb4e4fdb') in 0.176035 seconds 
+  Import took 0.193592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Mattia/Texture/CucinaMobileSopra/CucinaMobileSopra_CucinaMobileSopra_Mat_BaseColor.png
+  artifactKey: Guid(fe5f5f7ae578a084f9a1f41e60dff632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Texture/CucinaMobileSopra/CucinaMobileSopra_CucinaMobileSopra_Mat_BaseColor.png using Guid(fe5f5f7ae578a084f9a1f41e60dff632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0088a089378454e33d42e57945d1157e') in 0.293394 seconds 
+  Import took 0.331123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Mattia/Texture/CucinaMobileSopra/CucinaMobileSopra_CucinaMobileSopra_Mat_MetSmooth.png
+  artifactKey: Guid(19db90fb10b23d2449afdf8bcf0db0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Texture/CucinaMobileSopra/CucinaMobileSopra_CucinaMobileSopra_Mat_MetSmooth.png using Guid(19db90fb10b23d2449afdf8bcf0db0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5a02d001c53cb007ce1fc1e8bc79cb') in 0.019793 seconds 
+  Import took 0.044720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000955 seconds.
+  path: Assets/Mattia/Texture/CucinaMobileSotto/CucinaMobileSotto_Material.004_BaseColor.png
+  artifactKey: Guid(536a85c24a4cd6047b70b7e7c62244fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Texture/CucinaMobileSotto/CucinaMobileSotto_Material.004_BaseColor.png using Guid(536a85c24a4cd6047b70b7e7c62244fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6a40fed96f5fd4cc7f2faf5af7e246') in 0.021232 seconds 
+  Import took 0.030364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga
+  artifactKey: Guid(7bdd8cb386e0b554b84cb783663bb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga using Guid(7bdd8cb386e0b554b84cb783663bb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee24a2b9f19cf5b4677ea2b173733e3') in 0.089000 seconds 
+  Import took 0.108466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000900 seconds.
+  path: Assets/Mattia/Texture/CucinaMobileSotto/CucinaMobileSotto_Material.004_MetSmooth.png
+  artifactKey: Guid(d34291fe995f9f0498a4c232eb3449e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mattia/Texture/CucinaMobileSotto/CucinaMobileSotto_Material.004_MetSmooth.png using Guid(d34291fe995f9f0498a4c232eb3449e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fbeb80ea577d193ac77d086780e8a9') in 0.059899 seconds 
+  Import took 0.080166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.169381 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+  artifactKey: Guid(999388b68bb99b44099461bfbed94358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab using Guid(999388b68bb99b44099461bfbed94358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb96174d16bc850144870ea1e4621349') in 0.328611 seconds 
+  Import took 0.353842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Textures/MobileTvSalotto/MobileTvSalotto_MobileTvSalotto_Mat_BaseColor.png
+  artifactKey: Guid(c75588451cadaf1428b263f7f7286ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MobileTvSalotto/MobileTvSalotto_MobileTvSalotto_Mat_BaseColor.png using Guid(c75588451cadaf1428b263f7f7286ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc87462a5a0ec2c06c95877608116a7c') in 0.052291 seconds 
+  Import took 0.073494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Textures/MobileTvCucina/MobileTvCucina_MobileTVCucina_Mat_Metallic_Unity.png
+  artifactKey: Guid(0ab15b0643d626b4e800126a96b1e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MobileTvCucina/MobileTvCucina_MobileTVCucina_Mat_Metallic_Unity.png using Guid(0ab15b0643d626b4e800126a96b1e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097f614d21712569c8e02051fd021d79') in 0.044450 seconds 
+  Import took 0.070842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001185 seconds.
+  path: Assets/Materials/mobileTvCucina.mat
+  artifactKey: Guid(f191d772c89384e2b942888ef5d87b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mobileTvCucina.mat using Guid(f191d772c89384e2b942888ef5d87b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79989d46f5b0dbdb36b25affbee8a7d6') in 0.176878 seconds 
+  Import took 0.194254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Textures/MobileTvCucina/MobileTvCucina_MobileTVCucina_Mat_Normal.png
+  artifactKey: Guid(ce9b7937d2204455ca28076c8e38613c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MobileTvCucina/MobileTvCucina_MobileTVCucina_Mat_Normal.png using Guid(ce9b7937d2204455ca28076c8e38613c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716f8257577eef43fdb771fb91dc5475') in 0.057191 seconds 
+  Import took 0.075938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Textures/MobileTvSalotto/MobileTvSalotto_MobileTvSalotto_Mat_Normal.png
+  artifactKey: Guid(565c15fc0b07b7b4897441899d46d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MobileTvSalotto/MobileTvSalotto_MobileTvSalotto_Mat_Normal.png using Guid(565c15fc0b07b7b4897441899d46d4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c8f1456b47abb660003330c179331c') in 0.058238 seconds 
+  Import took 0.104180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/MobileTvSalotto.mat
+  artifactKey: Guid(e5eaa96a5111ecb4a9b38313d1cfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MobileTvSalotto.mat using Guid(e5eaa96a5111ecb4a9b38313d1cfbd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab70ae6e4ebe3a284f64102e346561c') in 0.059152 seconds 
+  Import took 0.078320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001061 seconds.
+  path: Assets/Textures/MobileTvSalotto/MobileTvSalotto_MobileTvSalotto_Mat_Height.png
+  artifactKey: Guid(e66a3d808bc4e5f4691f5fcb8e07538c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MobileTvSalotto/MobileTvSalotto_MobileTvSalotto_Mat_Height.png using Guid(e66a3d808bc4e5f4691f5fcb8e07538c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40e6785d1f8fe6014da12e580dd2791') in 0.058091 seconds 
+  Import took 0.084082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Textures/MobileTvSalotto/MobileTvSalotto_MobileTvSalotto_Mat_Metallic_Unity.png
+  artifactKey: Guid(d22566ee8abb3494e9fbce31e0e3a461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MobileTvSalotto/MobileTvSalotto_MobileTvSalotto_Mat_Metallic_Unity.png using Guid(d22566ee8abb3494e9fbce31e0e3a461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eb4d2a75dd516a4a4731f40deaaed5') in 0.078431 seconds 
+  Import took 0.094339 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.232596 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1843ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1591ms)
+			LoadAssemblies (497ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1637 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.0 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2202.
+Total: 3.557823 ms (FindLiveObjects: 0.188887 ms CreateObjectMapping: 0.058302 ms MarkObjects: 2.849061 ms  DeleteObjects: 0.460435 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -395,7 +395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 74001419}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_frigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 100484443}
   - component: {fileID: 100484442}
   - component: {fileID: 100484441}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +894,7 @@ GameObject:
   - component: {fileID: 102485711}
   - component: {fileID: 102485713}
   - component: {fileID: 102485712}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1039,7 +1039,7 @@ GameObject:
   - component: {fileID: 124841461}
   - component: {fileID: 124841460}
   - component: {fileID: 124841459}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1478,7 +1478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 147059275}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1766,8 +1766,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -1782,7 +1782,7 @@ GameObject:
   - component: {fileID: 181902157}
   - component: {fileID: 181902159}
   - component: {fileID: 181902158}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Paper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2129,7 +2129,7 @@ GameObject:
   - component: {fileID: 226707670}
   - component: {fileID: 226707669}
   - component: {fileID: 226707674}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2418,7 +2418,7 @@ GameObject:
   - component: {fileID: 229590488}
   - component: {fileID: 229590490}
   - component: {fileID: 229590489}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2497,7 +2497,7 @@ GameObject:
   - component: {fileID: 233302389}
   - component: {fileID: 233302391}
   - component: {fileID: 233302390}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2787,8 +2787,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.9315591, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -2808,7 +2808,7 @@ GameObject:
   - component: {fileID: 233629792}
   - component: {fileID: 233629791}
   - component: {fileID: 233629790}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3249,7 +3249,7 @@ GameObject:
   - component: {fileID: 247735067}
   - component: {fileID: 247735069}
   - component: {fileID: 247735068}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3420,7 +3420,7 @@ GameObject:
   - component: {fileID: 253031596}
   - component: {fileID: 253031594}
   - component: {fileID: 253031595}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AudioFeedbackManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3586,7 +3586,7 @@ GameObject:
   - component: {fileID: 269012699}
   - component: {fileID: 269012698}
   - component: {fileID: 269012697}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PiedinoFinal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3782,7 +3782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 281153000}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_termosifone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4291,7 +4291,7 @@ GameObject:
   - component: {fileID: 335821146}
   - component: {fileID: 335821148}
   - component: {fileID: 335821147}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4511,9 +4511,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineMode: 1
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -4534,7 +4534,7 @@ GameObject:
   - component: {fileID: 339804454}
   - component: {fileID: 339804453}
   - component: {fileID: 339804460}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5423,8 +5423,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -5517,7 +5517,7 @@ GameObject:
   - component: {fileID: 385646337}
   - component: {fileID: 385646336}
   - component: {fileID: 385646335}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6244,7 +6244,7 @@ GameObject:
   - component: {fileID: 438928659}
   - component: {fileID: 438928661}
   - component: {fileID: 438928660}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6317,7 +6317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 443541275}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_COFFEE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6513,7 +6513,7 @@ GameObject:
   - component: {fileID: 456897537}
   - component: {fileID: 456897536}
   - component: {fileID: 456897535}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7026,9 +7026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineMode: 1
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -7168,7 +7168,7 @@ GameObject:
   - component: {fileID: 483579062}
   - component: {fileID: 483579064}
   - component: {fileID: 483579063}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7480,7 +7480,7 @@ GameObject:
   - component: {fileID: 522104834}
   - component: {fileID: 522104836}
   - component: {fileID: 522104835}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7821,8 +7821,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -8080,7 +8080,7 @@ GameObject:
   - component: {fileID: 593808378}
   - component: {fileID: 593808380}
   - component: {fileID: 593808379}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8160,7 +8160,7 @@ GameObject:
   - component: {fileID: 603346442}
   - component: {fileID: 603346441}
   - component: {fileID: 603346443}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ScoreValue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8520,8 +8520,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -8845,7 +8845,7 @@ GameObject:
   - component: {fileID: 627876300}
   - component: {fileID: 627876302}
   - component: {fileID: 627876301}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8999,7 +8999,7 @@ GameObject:
   - component: {fileID: 633582553}
   - component: {fileID: 633582555}
   - component: {fileID: 633582554}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9387,7 +9387,7 @@ GameObject:
   - component: {fileID: 650677248}
   - component: {fileID: 650677247}
   - component: {fileID: 650677254}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9762,7 +9762,7 @@ GameObject:
   - component: {fileID: 652248765}
   - component: {fileID: 652248764}
   - component: {fileID: 652248763}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10655,7 +10655,7 @@ GameObject:
   - component: {fileID: 703682923}
   - component: {fileID: 703682925}
   - component: {fileID: 703682924}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10728,7 +10728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 704786058}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ActionWheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11088,7 +11088,7 @@ GameObject:
   - component: {fileID: 729712159}
   - component: {fileID: 729712161}
   - component: {fileID: 729712160}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11166,7 +11166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747252296}
   - component: {fileID: 747252297}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: EndingScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11220,7 +11220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 748062681}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_SHOWER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11290,7 +11290,7 @@ GameObject:
   - component: {fileID: 759240753}
   - component: {fileID: 759240752}
   - component: {fileID: 759240751}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11653,7 +11653,7 @@ GameObject:
   - component: {fileID: 764816845}
   - component: {fileID: 764816847}
   - component: {fileID: 764816846}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11823,7 +11823,7 @@ GameObject:
   - component: {fileID: 771076707}
   - component: {fileID: 771076709}
   - component: {fileID: 771076708}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12279,7 +12279,7 @@ GameObject:
   - component: {fileID: 800592950}
   - component: {fileID: 800592952}
   - component: {fileID: 800592951}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12363,7 +12363,7 @@ GameObject:
   - component: {fileID: 802875714}
   - component: {fileID: 802875713}
   - component: {fileID: 802875712}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13040,7 +13040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 836190279}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_CAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13080,7 +13080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 842531281}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_BOTTLE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13143,7 +13143,7 @@ GameObject:
   - component: {fileID: 854220214}
   - component: {fileID: 854220213}
   - component: {fileID: 854220212}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13493,7 +13493,7 @@ GameObject:
   - component: {fileID: 854978868}
   - component: {fileID: 854978867}
   - component: {fileID: 854978866}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13838,7 +13838,7 @@ GameObject:
   - component: {fileID: 864624436}
   - component: {fileID: 864624438}
   - component: {fileID: 864624437}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13968,7 +13968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 894240891}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14006,7 +14006,7 @@ GameObject:
   - component: {fileID: 903511766}
   - component: {fileID: 903511768}
   - component: {fileID: 903511767}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14225,7 +14225,7 @@ GameObject:
   - component: {fileID: 925440582}
   - component: {fileID: 925440581}
   - component: {fileID: 925440583}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PiedinoText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14416,7 +14416,7 @@ GameObject:
   - component: {fileID: 939614313}
   - component: {fileID: 939614315}
   - component: {fileID: 939614314}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14646,7 +14646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 963465798}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: CO2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14684,7 +14684,7 @@ GameObject:
   - component: {fileID: 972415556}
   - component: {fileID: 972415558}
   - component: {fileID: 972415557}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14826,7 +14826,7 @@ GameObject:
   - component: {fileID: 1014517339}
   - component: {fileID: 1014517341}
   - component: {fileID: 1014517340}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14906,7 +14906,7 @@ GameObject:
   - component: {fileID: 1019611793}
   - component: {fileID: 1019611792}
   - component: {fileID: 1019611791}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PiedinoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15119,7 +15119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1022418396}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_WASHER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15168,8 +15168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -15471,7 +15471,7 @@ GameObject:
   - component: {fileID: 1055839247}
   - component: {fileID: 1055839246}
   - component: {fileID: 1055839245}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15816,7 +15816,7 @@ GameObject:
   - component: {fileID: 1057117101}
   - component: {fileID: 1057117103}
   - component: {fileID: 1057117102}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15889,7 +15889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1058767724}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Tips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15933,7 +15933,7 @@ GameObject:
   - component: {fileID: 1061645798}
   - component: {fileID: 1061645797}
   - component: {fileID: 1061645796}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16780,7 +16780,7 @@ GameObject:
   - component: {fileID: 1107850507}
   - component: {fileID: 1107850509}
   - component: {fileID: 1107850508}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16992,8 +16992,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -17014,7 +17014,7 @@ GameObject:
   - component: {fileID: 1118059286}
   - component: {fileID: 1118059285}
   - component: {fileID: 1118059292}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17773,8 +17773,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -17952,7 +17952,7 @@ GameObject:
   - component: {fileID: 1167756188}
   - component: {fileID: 1167756187}
   - component: {fileID: 1167756193}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18397,7 +18397,7 @@ GameObject:
   - component: {fileID: 1183925947}
   - component: {fileID: 1183925946}
   - component: {fileID: 1183925945}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18797,7 +18797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1188763181}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_BISCUITS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19003,7 +19003,7 @@ GameObject:
   - component: {fileID: 1216968786}
   - component: {fileID: 1216968788}
   - component: {fileID: 1216968787}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19173,7 +19173,7 @@ GameObject:
   - component: {fileID: 1233927884}
   - component: {fileID: 1233927886}
   - component: {fileID: 1233927885}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19343,7 +19343,7 @@ GameObject:
   - component: {fileID: 1250533946}
   - component: {fileID: 1250533948}
   - component: {fileID: 1250533947}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Piedino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19590,7 +19590,7 @@ GameObject:
   - component: {fileID: 1277042239}
   - component: {fileID: 1277042241}
   - component: {fileID: 1277042240}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19860,7 +19860,7 @@ GameObject:
   - component: {fileID: 1302582284}
   - component: {fileID: 1302582283}
   - component: {fileID: 1302582282}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20274,7 +20274,7 @@ GameObject:
   - component: {fileID: 1307846239}
   - component: {fileID: 1307846241}
   - component: {fileID: 1307846240}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20449,7 +20449,7 @@ GameObject:
   - component: {fileID: 1319047307}
   - component: {fileID: 1319047306}
   - component: {fileID: 1319047312}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21131,7 +21131,7 @@ GameObject:
   - component: {fileID: 1361748218}
   - component: {fileID: 1361748217}
   - component: {fileID: 1361748216}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22108,9 +22108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineMode: 1
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -22125,7 +22125,7 @@ GameObject:
   - component: {fileID: 1401195631}
   - component: {fileID: 1401195633}
   - component: {fileID: 1401195632}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22205,7 +22205,7 @@ GameObject:
   - component: {fileID: 1401422208}
   - component: {fileID: 1401422207}
   - component: {fileID: 1401422206}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22567,7 +22567,7 @@ GameObject:
   - component: {fileID: 1422919047}
   - component: {fileID: 1422919046}
   - component: {fileID: 1422919045}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23025,7 +23025,7 @@ GameObject:
   - component: {fileID: 1436020967}
   - component: {fileID: 1436020966}
   - component: {fileID: 1436020965}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23534,7 +23534,7 @@ GameObject:
   - component: {fileID: 1451489596}
   - component: {fileID: 1451489595}
   - component: {fileID: 1451489601}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23879,7 +23879,7 @@ GameObject:
   - component: {fileID: 1474319909}
   - component: {fileID: 1474319911}
   - component: {fileID: 1474319910}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23958,7 +23958,7 @@ GameObject:
   - component: {fileID: 1486824945}
   - component: {fileID: 1486824947}
   - component: {fileID: 1486824946}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24390,8 +24390,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.6656785, y: 2.797319, z: 3.7035205}
-  m_Center: {x: 0.18914518, y: 1.3986595, z: 0.019362666}
+  m_Size: {x: 2.1927612, y: 0.8502329, z: 1.9282387}
+  m_Center: {x: -0.004571906, y: 0.42511645, z: -0.1472063}
 --- !u!114 &1500163260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24405,8 +24405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 2
+  outlineColor: {r: 1, g: 0.93333334, b: 0, a: 1}
+  outlineWidth: 6
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -24421,7 +24421,7 @@ GameObject:
   - component: {fileID: 1515339726}
   - component: {fileID: 1515339728}
   - component: {fileID: 1515339727}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24686,7 +24686,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1535417288}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_LIGHTS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24915,7 +24915,7 @@ GameObject:
   - component: {fileID: 1551972640}
   - component: {fileID: 1551972639}
   - component: {fileID: 1551972638}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25457,7 +25457,7 @@ GameObject:
   - component: {fileID: 1561024385}
   - component: {fileID: 1561024384}
   - component: {fileID: 1561024386}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: CO2Value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25810,7 +25810,7 @@ GameObject:
   - component: {fileID: 1600418610}
   - component: {fileID: 1600418612}
   - component: {fileID: 1600418611}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26124,7 +26124,7 @@ GameObject:
   - component: {fileID: 1620452257}
   - component: {fileID: 1620452259}
   - component: {fileID: 1620452258}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26295,7 +26295,7 @@ GameObject:
   - component: {fileID: 1640562388}
   - component: {fileID: 1640562387}
   - component: {fileID: 1640562386}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26640,7 +26640,7 @@ GameObject:
   - component: {fileID: 1645172199}
   - component: {fileID: 1645172201}
   - component: {fileID: 1645172200}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26719,7 +26719,7 @@ GameObject:
   - component: {fileID: 1646165477}
   - component: {fileID: 1646165479}
   - component: {fileID: 1646165478}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26908,7 +26908,7 @@ GameObject:
   - component: {fileID: 1647936544}
   - component: {fileID: 1647936543}
   - component: {fileID: 1647936545}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27310,7 +27310,7 @@ GameObject:
   - component: {fileID: 1675985504}
   - component: {fileID: 1675985506}
   - component: {fileID: 1675985505}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27403,7 +27403,7 @@ GameObject:
   - component: {fileID: 1680737610}
   - component: {fileID: 1680737612}
   - component: {fileID: 1680737611}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27478,7 +27478,7 @@ GameObject:
   - component: {fileID: 1690579218}
   - component: {fileID: 1690579220}
   - component: {fileID: 1690579219}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27558,7 +27558,7 @@ GameObject:
   - component: {fileID: 1698657230}
   - component: {fileID: 1698657229}
   - component: {fileID: 1698657228}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28570,7 +28570,7 @@ GameObject:
   - component: {fileID: 1761001570}
   - component: {fileID: 1761001572}
   - component: {fileID: 1761001571}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28654,7 +28654,7 @@ GameObject:
   - component: {fileID: 1775993216}
   - component: {fileID: 1775993215}
   - component: {fileID: 1775993214}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29089,7 +29089,7 @@ GameObject:
   - component: {fileID: 1819224011}
   - component: {fileID: 1819224010}
   - component: {fileID: 1819224009}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29451,7 +29451,7 @@ GameObject:
   - component: {fileID: 1834387354}
   - component: {fileID: 1834387353}
   - component: {fileID: 1834387352}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30019,7 +30019,7 @@ GameObject:
   - component: {fileID: 1853618467}
   - component: {fileID: 1853618466}
   - component: {fileID: 1853618468}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TipsText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30113,7 +30113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1855662746}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PlayerHints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30137,7 +30137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 45.400085, y: 45.099976}
+  m_AnchoredPosition: {x: 45.400055, y: 45.099976}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1858556377 stripped
@@ -30187,7 +30187,7 @@ GameObject:
   - component: {fileID: 1873584326}
   - component: {fileID: 1873584328}
   - component: {fileID: 1873584327}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30266,7 +30266,7 @@ GameObject:
   - component: {fileID: 1877552520}
   - component: {fileID: 1877552522}
   - component: {fileID: 1877552521}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30346,7 +30346,7 @@ GameObject:
   - component: {fileID: 1884099365}
   - component: {fileID: 1884099364}
   - component: {fileID: 1884099363}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30574,7 +30574,7 @@ MonoBehaviour:
   itemText: {fileID: 1474319910}
   ActionWheel: {fileID: 836190278}
   co2Value: 1.5
-  pointsValue: 2
+  pointsValue: 3
   isBad: 0
   textHint: {fileID: 0}
   hoverSFX: {fileID: 8300000, guid: 75acdf8dc8125504daad482f88b78173, type: 3}
@@ -30692,7 +30692,7 @@ GameObject:
   - component: {fileID: 1885796322}
   - component: {fileID: 1885796321}
   - component: {fileID: 1885796320}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HintText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30785,7 +30785,7 @@ GameObject:
   - component: {fileID: 1902400093}
   - component: {fileID: 1902400095}
   - component: {fileID: 1902400094}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30860,7 +30860,7 @@ GameObject:
   - component: {fileID: 1909442755}
   - component: {fileID: 1909442757}
   - component: {fileID: 1909442756}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30935,7 +30935,7 @@ GameObject:
   - component: {fileID: 1938382645}
   - component: {fileID: 1938382647}
   - component: {fileID: 1938382646}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31008,7 +31008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1946244010}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_pc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31050,7 +31050,7 @@ GameObject:
   - component: {fileID: 1948240779}
   - component: {fileID: 1948240781}
   - component: {fileID: 1948240780}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTNTXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31207,7 +31207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2007083694}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AW_ROOMBA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31248,7 +31248,7 @@ GameObject:
   - component: {fileID: 2015868483}
   - component: {fileID: 2015868482}
   - component: {fileID: 2015868481}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TipsText2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31507,7 +31507,7 @@ GameObject:
   - component: {fileID: 2061427625}
   - component: {fileID: 2061427624}
   - component: {fileID: 2061427623}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: HintButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31627,7 +31627,7 @@ GameObject:
   - component: {fileID: 2065632432}
   - component: {fileID: 2065632434}
   - component: {fileID: 2065632433}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31702,7 +31702,7 @@ GameObject:
   - component: {fileID: 2067962173}
   - component: {fileID: 2067962175}
   - component: {fileID: 2067962174}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ICN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31782,7 +31782,7 @@ GameObject:
   - component: {fileID: 2070138821}
   - component: {fileID: 2070138820}
   - component: {fileID: 2070138819}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32356,7 +32356,7 @@ GameObject:
   - component: {fileID: 2089496914}
   - component: {fileID: 2089496916}
   - component: {fileID: 2089496915}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Crosshair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32502,7 +32502,7 @@ GameObject:
   - component: {fileID: 2099703028}
   - component: {fileID: 2099703027}
   - component: {fileID: 2099703026}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BTN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32847,7 +32847,7 @@ GameObject:
   - component: {fileID: 2113717878}
   - component: {fileID: 2113717880}
   - component: {fileID: 2113717879}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PiedinoWrapper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
