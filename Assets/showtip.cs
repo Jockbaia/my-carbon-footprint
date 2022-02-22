@@ -20,7 +20,8 @@ public class showtip : MonoBehaviour
     void Update()
     {
         int score = player.GetComponent<PlayerData>().getScore();
-        if(score == 20) itemText.text = "Complimenti! Le tue abitudini quotidiane in termini di consumo di CO2 sono davvero invidiabili, potresti benissimo essere un modello da seguire sui comportamenti che ognuno di noi dovrebbe assumere per ridurre il numero di emissioni di anidride carbonica. Continua così!";
+        if(score == 22) itemText.text = "Complimenti! Le tue abitudini quotidiane in termini di consumo di CO2 sono davvero invidiabili, potresti benissimo essere un modello da seguire sui comportamenti che ognuno di noi dovrebbe assumere per ridurre il numero di emissioni di anidride carbonica. Continua così!";
+        else if(score < 22 && score >= 20) itemText.text = "Complimenti per le tue abitudini! I tuoi comportamenti quotidiani sono consapevoli ed intelligenti... Ma ricordati che si può ancora fare di meglio!";
         else if(score <= 19 && score >= 15) itemText.text ="Ottimo! Si vede che i tuoi comportamenti quotidiani in relazione al consumo di CO2 sono consapevoli e intelligenti, tuttavia, si puo’ sempre fare qualcosina in più, ad esempio:";
         else if(score <= 14 && score >= 8) itemText.text ="Bene! C’è della consapevolezza nelle tue azioni in relazione alle emissioni di CO2, ma ci sono ancora tanti piccoli sforzi nelle tue abitudini quotidiane a cui puoi prestare attenzione, ad esempio:";
         else if(score <= 7 && score >= 1) itemText.text ="Non ci siamo! Dovresti rivedere le tue abitudini quotidiane! Basta veramente poco per migliorare i propri comportamenti in relazioni al consumo individuale di CO2, fai attenzione ai suggerimenti che sto per darti:";

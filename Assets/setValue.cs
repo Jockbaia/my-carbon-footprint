@@ -20,6 +20,6 @@ public class setValue : MonoBehaviour
     void Update()
     {
         string myData = player.GetComponent<PlayerData>().getScore().ToString(); 
-        itemText.text = myData + " su 23";
+        itemText.text = myData + " su 22";
     }
 }
