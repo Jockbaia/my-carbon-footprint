@@ -2166,6 +2166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mobile_bagno
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 769b5e2696c334d58ae57c5e45c6b957, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 769b5e2696c334d58ae57c5e45c6b957, type: 3}
 --- !u!1001 &215444522
@@ -2234,6 +2238,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
       propertyPath: m_Name
       value: bottone (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
@@ -3971,6 +3979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: biancheria
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 609aa793897244319b5c8b27b79a0eb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609aa793897244319b5c8b27b79a0eb4, type: 3}
 --- !u!1001 &265058537
@@ -4027,6 +4039,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a2777c605be7f464f952402f2e290617, type: 3}
       propertyPath: m_Name
       value: pianta_grassa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a2777c605be7f464f952402f2e290617, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2777c605be7f464f952402f2e290617, type: 3}
@@ -4339,6 +4355,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 86bb3465fa90f4899b343b817ec168da, type: 3}
       propertyPath: m_Name
       value: cestino
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 86bb3465fa90f4899b343b817ec168da, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86bb3465fa90f4899b343b817ec168da, type: 3}
@@ -6395,6 +6415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bottone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
 --- !u!4 &400971422 stripped
@@ -7669,6 +7693,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 076e0a8ab8c2a4ccbae4b3aa219276dc, type: 3}
       propertyPath: m_Name
       value: cestino_garage
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 076e0a8ab8c2a4ccbae4b3aa219276dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076e0a8ab8c2a4ccbae4b3aa219276dc, type: 3}
@@ -10539,6 +10567,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: edddc574b0b5a4da1adf921ad324070e, type: 3}
       propertyPath: m_Name
       value: rotolo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edddc574b0b5a4da1adf921ad324070e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edddc574b0b5a4da1adf921ad324070e, type: 3}
@@ -14277,6 +14309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carta (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44a132b656a804c39bfa629b2586c351, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a132b656a804c39bfa629b2586c351, type: 3}
 --- !u!1 &903511765
@@ -14714,6 +14750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bacheca_new (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9273ac654ac64448ebef55499c9dc9f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9273ac654ac64448ebef55499c9dc9f9, type: 3}
 --- !u!1 &925440579
@@ -15031,6 +15071,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 53b9d2d4164154f06a709df92eb704f2, type: 3}
       propertyPath: m_Name
       value: mensola_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 53b9d2d4164154f06a709df92eb704f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b9d2d4164154f06a709df92eb704f2, type: 3}
@@ -15571,7 +15615,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020966908}
   m_LocalRotation: {x: -0, y: -0.7071065, z: -0, w: 0.7071071}
-  m_LocalPosition: {x: -1.04, y: 1.67, z: -7.359999}
+  m_LocalPosition: {x: -1.04, y: 1.67, z: -7.361}
   m_LocalScale: {x: 0.5731747, y: 3.8441744, z: 1.0047814}
   m_Children: []
   m_Father: {fileID: 1433256285}
@@ -16869,7 +16913,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2ce4ffab7b29c49a4929600933c1d749, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ce4ffab7b29c49a4929600933c1d749, type: 3}
@@ -16947,7 +16991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ce6c5b19d228d4f5499987ce61927289, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce6c5b19d228d4f5499987ce61927289, type: 3}
@@ -18120,6 +18164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attrezzi_garage
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c3b329830021c4418ad6d6dd6a32747e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3b329830021c4418ad6d6dd6a32747e, type: 3}
 --- !u!1001 &1130128679
@@ -18452,6 +18500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mensola_1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f2609e00751cd4305b7ef112e3d16362, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2609e00751cd4305b7ef112e3d16362, type: 3}
 --- !u!1001 &1166525926
@@ -18520,6 +18572,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 24a10f25334d848da8d929cc540662b6, type: 3}
       propertyPath: m_Name
       value: sedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24a10f25334d848da8d929cc540662b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a10f25334d848da8d929cc540662b6, type: 3}
@@ -22174,6 +22230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cassa_garage
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f24d7c53d58aa444cbeae327916f895a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f24d7c53d58aa444cbeae327916f895a, type: 3}
 --- !u!1 &1385433031
@@ -22828,6 +22888,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ff04a9621ad5b43b48c19da816a9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isOpen: 0
+  toAnimate: {fileID: 0}
 --- !u!114 &1397990948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24667,6 +24729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: armadio_garage
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eb06ba059c813406596080251af487fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb06ba059c813406596080251af487fb, type: 3}
 --- !u!1 &1474319908
@@ -25663,6 +25729,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
       propertyPath: m_Name
       value: bottone
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2191ba255a73746238f37f648f28ac52, type: 3}
@@ -29298,7 +29368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758489865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.886087, y: 9.774819, z: 15.488924}
+  m_LocalPosition: {x: -23.886087, y: 9.77, z: 15.488924}
   m_LocalScale: {x: 7.000525, y: 3.0379, z: 14.19022}
   m_Children: []
   m_Father: {fileID: 23101591}
@@ -30015,6 +30085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mensola_2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 53b9d2d4164154f06a709df92eb704f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53b9d2d4164154f06a709df92eb704f2, type: 3}
 --- !u!1001 &1795452339
@@ -30168,6 +30242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bacheca_new
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9273ac654ac64448ebef55499c9dc9f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9273ac654ac64448ebef55499c9dc9f9, type: 3}
 --- !u!1001 &1808667110
@@ -30236,6 +30314,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0e1cae9829fc34c7fbbb4e4e2102ac52, type: 3}
       propertyPath: m_Name
       value: mensola_garage
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0e1cae9829fc34c7fbbb4e4e2102ac52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e1cae9829fc34c7fbbb4e4e2102ac52, type: 3}
@@ -32260,6 +32342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carta (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44a132b656a804c39bfa629b2586c351, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a132b656a804c39bfa629b2586c351, type: 3}
 --- !u!1 &1938382644
@@ -34070,6 +34156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cassettiera_bagno
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d80e7a2770c4b43759e55cf32ea44e0d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d80e7a2770c4b43759e55cf32ea44e0d, type: 3}
 --- !u!1 &2099703024
@@ -35728,7 +35818,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!1001 &5277249657030420656
 PrefabInstance:
