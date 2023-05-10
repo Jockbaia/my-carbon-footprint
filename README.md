@@ -5,6 +5,7 @@
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
 [![Demo Youtube](https://img.shields.io/badge/Trailer-Youtube-red)](https://www.youtube.com/watch?v=O4Op4Y8ARMY)
 
+🎮 [Download the game on itch.io](https://jockbaia.itch.io/mycarbonfootprint)
 
 ## ♻ About
 
